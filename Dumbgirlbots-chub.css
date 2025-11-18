@@ -1,0 +1,57 @@
+/* ============================================
+   CIEL SINGLE CARD
+   ============================================ */
+#ciel-card {
+  background-color: #f0e6f5 !important;
+  border: 8px solid #c1a3d3 !important;
+  border-radius: 20px !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+  font-family: 'Georgia', serif !important;
+  color: #3b1f3c !important;
+  line-height: 1.7 !important;
+  transition: all 0.3s ease !important;
+  overflow: hidden;
+}
+
+#ciel-card:hover {
+  transform: translateY(-2px) !important;
+  border-color: #c9a5e6 !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15) !important;
+}
+
+/* Card head */
+#ciel-card .ant-card-head {
+  background: linear-gradient(135deg,#e6d4f0,#ecd8f5) !important;
+  border-bottom: 4px solid #c1a3d3 !important;
+}
+
+#ciel-card .ant-card-head-title {
+  color: #3b1f3c !important;
+  font-family: 'Georgia', serif !important;
+}
+
+/* Card body */
+#ciel-card .ant-card-body {
+  color: #3b1f3c !important;
+  font-family: 'Georgia', serif !important;
+  line-height: 1.7 !important;
+}
+
+/* Images */
+#ciel-card img {
+  border: 3px solid #c1a3d3 !important;
+  border-radius: 12px !important;
+}
+
+/* Highlighted text inside the card */
+#ciel-card .ant-card-meta-description {
+  background: linear-gradient(135deg,#e6d4f0,#ecd8f5);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  color: #3b1f3c;
+  font-family: 'Georgia', serif;
+  line-height: 1.5;
+  display: block;
+  margin: 10px 0;
+}
