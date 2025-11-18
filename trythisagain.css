@@ -1,0 +1,189 @@
+/* ============================================
+   COLOR PALETTE
+   ============================================ */
+:root {
+  --bg-dark: #0A0A0F;
+  --bg-light: rgba(10, 10, 15, 0.8);
+  --accent-blue: #00FFFF;
+  --glow-blue: rgba(0, 255, 255, 0.35);
+  --text-light: #E0E0FF;
+  --text-muted: #A0A0C0;
+  --border-dark: #111122;
+  --shadow-soft: rgba(0, 255, 255, 0.2);
+  --shadow-medium: rgba(0, 255, 255, 0.35);
+}
+
+/* ============================================
+   BODY
+   ============================================ */
+body {
+  background: var(--bg-dark);
+  color: var(--text-light);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ============================================
+   PROFILE AVATAR
+   ============================================ */
+.ant-avatar.ant-avatar-square.ant-avatar-image {
+  width: 200px !important;
+  height: 200px !important;
+  border: 3px solid var(--accent-blue) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 0 20px var(--glow-blue) !important;
+  transition: all 0.3s ease !important;
+  display: block !important;
+  margin: 0 auto 25px auto !important;
+}
+
+.ant-avatar.ant-avatar-square.ant-avatar-image:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 0 30px var(--glow-blue) !important;
+}
+
+/* ============================================
+   MAIN CONTAINER
+   ============================================ */
+.msg-mkdn-container.font-size-message {
+  background: var(--bg-light) !important;
+  border: 2px solid var(--accent-blue) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 0 20px var(--shadow-medium) !important;
+  backdrop-filter: blur(4px) !important;
+  padding: 20px !important;
+  max-width: 1000px !important;
+  margin: 0 auto !important;
+}
+
+/* ============================================
+   HEADINGS
+   ============================================ */
+.msg-mkdn-container h1,
+.msg-mkdn-container.font-size-message h1 {
+  color: var(--accent-blue) !important;
+  font-size: 32px !important;
+  font-weight: bold !important;
+  text-align: center;
+  border-bottom: 2px solid var(--accent-blue);
+  padding-bottom: 10px;
+}
+
+.msg-mkdn-container h2,
+.msg-mkdn-container.font-size-message h2 {
+  color: var(--text-light) !important;
+  border-left: 4px solid var(--accent-blue);
+  padding-left: 15px;
+  margin: 15px 0 10px 0;
+}
+
+.msg-mkdn-container h3,
+.msg-mkdn-container.font-size-message h3,
+.msg-mkdn-container h4,
+.msg-mkdn-container.font-size-message h4 {
+  color: var(--text-muted) !important;
+}
+
+/* ============================================
+   TEXT & LISTS
+   ============================================ */
+.msg-mkdn-container.font-size-message p,
+.msg-mkdn-container.font-size-message li {
+  color: var(--text-light) !important;
+  line-height: 1.6 !important;
+  font-size: 16px !important;
+}
+
+.msg-mkdn-container li::before {
+  content: "•";
+  color: var(--accent-blue);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* ============================================
+   LINKS
+   ============================================ */
+a {
+  color: var(--accent-blue) !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  color: var(--glow-blue) !important;
+  border-bottom: 1px solid var(--glow-blue);
+}
+
+/* ============================================
+   CARDS
+   ============================================ */
+.ant-card {
+  background: var(--bg-light) !important;
+  border: 2px solid var(--accent-blue) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 0 15px var(--shadow-soft) !important;
+  transition: all 0.3s ease !important;
+}
+
+.ant-card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 0 25px var(--glow-blue) !important;
+}
+
+/* ============================================
+   TAGS
+   ============================================ */
+.ant-tag {
+  background: rgba(0, 0, 0, 0.2) !important;
+  border: 1px solid var(--accent-blue) !important;
+  color: var(--accent-blue) !important;
+  border-radius: 6px !important;
+  padding: 2px 8px !important;
+  transition: all 0.25s ease !important;
+  box-shadow: 0 0 8px var(--shadow-soft) !important;
+}
+
+.ant-tag:hover {
+  box-shadow: 0 0 15px var(--glow-blue) !important;
+  border-color: var(--glow-blue) !important;
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+.ant-btn {
+  background: transparent !important;
+  border: 2px solid var(--accent-blue) !important;
+  color: var(--accent-blue) !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+}
+
+.ant-btn:hover {
+  background: var(--accent-blue) !important;
+  color: var(--bg-dark) !important;
+  box-shadow: 0 0 15px var(--glow-blue) !important;
+}
+
+/* ============================================
+   SCROLLBAR
+   ============================================ */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111122;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-blue);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--glow-blue);
+}
