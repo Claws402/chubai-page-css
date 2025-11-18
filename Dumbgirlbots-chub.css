@@ -1,57 +1,48 @@
+<style>
 /* ============================================
-   CIEL SINGLE CARD
+   CHARACTER CARDS - CIEL THEME
    ============================================ */
-#ciel-card {
-  background-color: #f0e6f5 !important;
-  border: 8px solid #c1a3d3 !important;
-  border-radius: 20px !important;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
-  font-family: 'Georgia', serif !important;
-  color: #3b1f3c !important;
-  line-height: 1.7 !important;
+.ant-card {
+  background: rgba(230, 225, 250, 0.85) !important; /* soft lavender card bg */
+  border: 2px solid #B19CD9 !important; /* muted purple border */
+  border-radius: 16px !important; /* slightly rounded corners */
+  box-shadow: 0 4px 15px rgba(180, 156, 217, 0.4) !important; /* soft purple glow */
   transition: all 0.3s ease !important;
+  position: relative;
   overflow: hidden;
 }
 
-#ciel-card:hover {
+.ant-card:hover {
   transform: translateY(-2px) !important;
-  border-color: #c9a5e6 !important;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.15) !important;
+  border-color: #9370DB !important; /* brighter purple on hover */
+  box-shadow: 0 6px 20px rgba(147, 112, 219, 0.5) !important; /* hover glow */
 }
 
-/* Card head */
-#ciel-card .ant-card-head {
-  background: linear-gradient(135deg,#e6d4f0,#ecd8f5) !important;
-  border-bottom: 4px solid #c1a3d3 !important;
+.ant-card .ant-card-head {
+  background: linear-gradient(90deg, rgba(180, 156, 217, 0.3) 0%, rgba(230, 225, 250, 0.15) 100%) !important; /* lavender header gradient */
+  border-bottom: 2px solid #B19CD9 !important;
+  color: #4B0082 !important; /* deep purple text */
+  font-family: 'Segoe UI', sans-serif !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
 }
 
-#ciel-card .ant-card-head-title {
-  color: #3b1f3c !important;
-  font-family: 'Georgia', serif !important;
+.ant-card .ant-card-head-title {
+  color: #4B0082 !important; /* ensure title text matches header */
+  text-shadow: 0 0 6px rgba(180, 156, 217, 0.6); /* subtle glow on title */
 }
 
-/* Card body */
-#ciel-card .ant-card-body {
-  color: #3b1f3c !important;
-  font-family: 'Georgia', serif !important;
-  line-height: 1.7 !important;
+.ant-card .ant-card-body {
+  color: #6A5ACD !important; /* soft periwinkle for body text */
+  font-family: 'Segoe UI', sans-serif !important;
+  line-height: 1.5 !important;
 }
 
-/* Images */
-#ciel-card img {
-  border: 3px solid #c1a3d3 !important;
-  border-radius: 12px !important;
+/* Images inside cards get a soft glow border */
+.ant-row.ant-row-no-wrap.card-main-body img {
+  border: 2px solid #B19CD9 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 0 12px rgba(180, 156, 217, 0.4) !important;
 }
+</style>
 
-/* Highlighted text inside the card */
-#ciel-card .ant-card-meta-description {
-  background: linear-gradient(135deg,#e6d4f0,#ecd8f5);
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
-  color: #3b1f3c;
-  font-family: 'Georgia', serif;
-  line-height: 1.5;
-  display: block;
-  margin: 10px 0;
-}
