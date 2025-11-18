@@ -187,3 +187,42 @@ a:hover {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--glow-blue);
 }
+
+/* ============================================
+   CIEL CARD OVERRIDES
+   ============================================ */
+
+/* Soft lavender background and white accents for Ciel */
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .char-card-class {
+    background: #EDE6F7 !important; /* soft lavender */
+    border: 2px solid #FFFFFF !important; /* white border */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.35) !important; /* soft glow */
+    border-radius: 12px !important;
+}
+
+/* Avatar image tweaks for Ciel */
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] img {
+    border-radius: 50% !important; /* round avatar */
+    border: 2px solid #FFFFFF !important; /* white outline */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Tags for Ciel */
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-tag {
+    background-color: rgba(255, 255, 255, 0.2) !important; /* soft white background */
+    border: 1px solid #FFFFFF !important; /* white border */
+    color: #4B0082 !important; /* dark lavender text */
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Hover effects for Ciel's card */
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .char-card-class:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.4) !important;
+}
+
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-tag:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4) !important;
+    border-color: rgba(255, 255, 255, 0.8) !important;
+}
+
