@@ -192,12 +192,12 @@ a:hover {
    CIEL CARD LAVENDER THEME
    ============================================ */
 a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .char-card-class {
-    background-color: #f0e6f5 !important;      /* soft lavender */
-    border: 8px solid #c1a3d3 !important;     /* darker lavender border */
-    border-radius: 20px !important;           /* rounded edges */
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1), 0 0 18px rgba(193,163,211,0.6) !important; /* soft glow + ambient shadow */
+    background-color: #f0e6f5 !important;
+    border: 8px solid #c1a3d3 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1), 0 0 18px rgba(193,163,211,0.6) !important;
     padding: 20px !important;
-    color: #3b1f3c !important;                /* text color */
+    color: #3b1f3c !important;
     font-family: 'Georgia', serif !important;
     line-height: 1.7 !important;
     transition: all 0.3s ease !important;
@@ -235,24 +235,40 @@ a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .
     border-color: #ecd8f5 !important;
 }
 
-/* Animated epic-style box for emphasis (optional, for special cards) */
+/* ===============================
+   Special Text Styling
+   =============================== */
+
+/* EPIC LINE – dark royal purple script */
 a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ciel-epic-box {
-    background: #3a1f3b !important;
-    border: 4px solid #a156c0 !important;
-    border-radius: 18px !important;
-    padding: 22px 28px !important;
-    margin: 22px 0 !important;
-    font-size: 1.25em !important;
-    font-weight: 800 !important;
-    color: #eacaff !important;
-    text-shadow: 0 0 6px #a156c0, 0 0 12px #5e1f80 !important;
-    box-shadow: 0 0 18px rgba(84,36,84,0.6), inset 0 0 12px rgba(234,202,255,0.15) !important;
+    font-family: "Papyrus", "Palatino Linotype", "Book Antiqua", serif !important;
+    color: #4a156b !important; /* deep purple */
+    background: transparent !important;
+    font-weight: 700 !important;
     letter-spacing: 1px !important;
     text-align: center !important;
-    position: relative !important;
-    animation: cielEpicPulse 2s ease-in-out infinite !important;
+    font-size: 1.35em !important;
+    padding: 18px 24px !important;
+    text-shadow: 0 0 6px rgba(162,86,192,0.6), 0 0 14px rgba(100,40,150,0.6) !important;
+    animation: cielEpicPulse 2.5s ease-in-out infinite !important;
 }
 
+/* INTRO LINE – purple papyrus over soft pink background */
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ciel-emphasis-box {
+    background: #f9d8f3 !important;
+    border: 3px solid #d8b7ef !important;
+    font-family: "Papyrus", "Palatino Linotype", "Book Antiqua", serif !important;
+    color: #5e1f80 !important;
+    font-weight: 800 !important;
+    border-radius: 14px !important;
+    padding: 16px 22px !important;
+    font-size: 1.18em !important;
+    text-shadow: 0 0 8px #e8c2f7 !important;
+    text-align: center !important;
+    box-shadow: inset 0 0 10px rgba(255,255,255,0.3), 0 0 12px rgba(193,163,211,0.4) !important;
+}
+
+/* Glow Animation */
 @keyframes cielEpicPulse {
     0% { text-shadow: 0 0 6px #a156c0, 0 0 12px #5e1f80; }
     50% { text-shadow: 0 0 8px #c894e0, 0 0 16px #9b3fa0; }
