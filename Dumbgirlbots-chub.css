@@ -914,112 +914,18 @@ a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"
   box-shadow: 0 0 10px rgba(204, 51, 255, 0.5) !important;
 }
 
-/* ====================================================
-   JESSIKA CARD OVERRIDE – COLD GREY (FULL)
-   ==================================================== */
-
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-card {
-  border-color: #7f8c8d !important;
-  border-radius: 8px !important;
-  box-shadow: 0 0 10px rgba(127, 140, 141, 0.25) !important;
-}
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-card:hover {
-  box-shadow: 0 0 15px rgba(127, 140, 141, 0.55) !important;
-}
-
-/* Tags */
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-tag {
-  border-color: #7f8c8d !important;
-  color: #7f8c8d !important;
-}
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-tag:hover {
-  box-shadow: none !important;
-}
-
-/* Quote & link text */
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] a,
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .quote-color {
-  color: #7f8c8d !important;
-}
-
-/* Icons */
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] svg,
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .anticon {
-  stroke: #7f8c8d !important;
-  fill: #7f8c8d !important;
-}
-
-/* Ribbon */
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .fake-ribbon {
-  background: rgba(127, 140, 141, 0.18) !important;
-  border: 2px solid #7f8c8d !important;
-  color: #7f8c8d !important;
-}
-
-/* Buttons */
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-btn {
-  border-color: #7f8c8d !important;
-  color: #7f8c8d !important;
-  background-color: transparent !important;
-  box-shadow: 0 0 8px rgba(127, 140, 141, 0.25) !important;
-}
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-btn:hover {
-  background-color: #7f8c8d !important;
-  color: #0A0A0F !important;
-  box-shadow: 0 0 15px rgba(127, 140, 141, 0.55) !important;
-}
-
-/* More dropdown icon */
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-dropdown-trigger svg {
-  fill: #7f8c8d !important;
-  stroke: #7f8c8d !important;
-}
-
-/* Force gray text recolor */
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-btn[style*="color: gray"] {
-  color: #7f8c8d !important;
-}
-
-/* Scrollbar */
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .custom-scroll::-webkit-scrollbar-thumb {
-  background: #7f8c8d;
-}
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .custom-scroll::-webkit-scrollbar-thumb:hover {
-  background: #95a5a6;
-}
-
-/* Dropdown menus */
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-dropdown-menu,
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-dropdown-menu-item,
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-dropdown-menu-item .ant-btn {
-  background: rgba(127, 140, 141, 0.95) !important;
-  border: 2px solid #7f8c8d !important;
-  color: #ffffff !important;
-}
-
-/* Hover */
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-dropdown-menu-item:hover {
-  background: rgba(149, 165, 166, 0.8) !important;
-  color: #0A0A0F !important;
-}
-
-/* Tooltip */
-a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"]:hover ~ .ant-tooltip .ant-tooltip-inner {
-  background-color: #7f8c8d !important;
-  color: #0A0A0F !important;
-  border: 2px solid #95a5a6 !important;
-  box-shadow: 0 0 10px rgba(127, 140, 141, 0.5) !important;
-}
-
-/* ====================================================
+/* ============================================
    VIVIE CARD OVERRIDE – STATIC RAINBOW (FULL)
-   ==================================================== */
+   ============================================ */
 
 a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-card {
   border: 4px solid;
   border-image: linear-gradient(135deg, #ff9999, #ffcc99, #ffff99, #ccffcc, #99ffff, #ccccff, #ff99ff) 1;
   border-radius: 8px !important;
-  box-shadow: 0 0 15px rgba(255, 192, 203, 0.3), 0 0 25px rgba(173, 216, 230, 0.2) inset;
+  box-shadow: 0 0 15px rgba(255,192,203,0.3), 0 0 25px rgba(173,216,230,0.2) inset;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(255,192,203,0.55), 0 0 35px rgba(173,216,230,0.35) inset;
 }
 
 /* Tags */
@@ -1027,6 +933,9 @@ a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .a
   border-color: transparent !important;
   background: linear-gradient(135deg, #ff9999, #ffcc99, #ffff99, #ccffcc, #99ffff, #ccccff, #ff99ff);
   color: #ffffff !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-tag:hover {
+  box-shadow: 0 0 15px rgba(255,192,203,0.55) !important;
 }
 
 /* Quote & link text */
@@ -1044,7 +953,7 @@ a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .a
 
 /* Ribbon */
 a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .fake-ribbon {
-  background: rgba(255, 192, 203, 0.18) !important;
+  background: rgba(255,192,203,0.18) !important;
   border: 2px solid #d06f9a !important;
   color: #d06f9a !important;
 }
@@ -1054,12 +963,12 @@ a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .a
   border-color: #d06f9a !important;
   color: #d06f9a !important;
   background-color: transparent !important;
-  box-shadow: 0 0 8px rgba(255, 192, 203, 0.3) !important;
+  box-shadow: 0 0 8px rgba(255,192,203,0.3) !important;
 }
 a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-btn:hover {
   background-color: #d06f9a !important;
   color: #0A0A0F !important;
-  box-shadow: 0 0 15px rgba(255, 192, 203, 0.55) !important;
+  box-shadow: 0 0 15px rgba(255,192,203,0.55) !important;
 }
 
 /* More dropdown icon */
@@ -1085,14 +994,14 @@ a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .c
 a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-dropdown-menu,
 a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-dropdown-menu-item,
 a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-dropdown-menu-item .ant-btn {
-  background: rgba(255, 192, 203, 0.95) !important;
+  background: rgba(255,192,203,0.95) !important;
   border: 2px solid #d06f9a !important;
   color: #ffffff !important;
 }
 
 /* Hover */
 a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-dropdown-menu-item:hover {
-  background: rgba(255, 182, 193, 0.8) !important;
+  background: rgba(255,182,193,0.8) !important;
   color: #0A0A0F !important;
 }
 
@@ -1101,20 +1010,119 @@ a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"]:ho
   background-color: #d06f9a !important;
   color: #0A0A0F !important;
   border: 2px solid #f1a7c1 !important;
-  box-shadow: 0 0 10px rgba(255, 192, 203, 0.55) !important;
+  box-shadow: 0 0 10px rgba(255,192,203,0.55) !important;
 }
 
-/* ====================================================
+
+/* ============================================
+   JESSIKA CARD OVERRIDE – COLD GREY (FULL)
+   ============================================ */
+
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-card {
+  border-color: #888888 !important;
+  box-shadow: 0 0 10px rgba(136,136,136,0.2) !important;
+  border-radius: 8px !important;
+}
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-card:hover {
+  box-shadow: 0 0 15px rgba(136,136,136,0.35) !important;
+}
+
+/* Tags */
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-tag {
+  border-color: #888888 !important;
+  color: #888888 !important;
+}
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-tag:hover {
+  box-shadow: 0 0 10px rgba(136,136,136,0.35) !important;
+}
+
+/* Quote & link text */
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] a,
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .quote-color {
+  color: #888888 !important;
+}
+
+/* Icons */
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] svg,
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .anticon {
+  stroke: #888888 !important;
+  fill: #888888 !important;
+}
+
+/* Ribbon */
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .fake-ribbon {
+  background: rgba(136,136,136,0.2) !important;
+  border: 2px solid #888888 !important;
+  color: #888888 !important;
+}
+
+/* Buttons */
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-btn {
+  border-color: #888888 !important;
+  color: #888888 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 6px rgba(136,136,136,0.2) !important;
+}
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-btn:hover {
+  background-color: #888888 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 12px rgba(136,136,136,0.35) !important;
+}
+
+/* More dropdown icon */
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-dropdown-trigger svg {
+  fill: #888888 !important;
+  stroke: #888888 !important;
+}
+
+/* Force gray text recolor */
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-btn[style*="color: gray"] {
+  color: #888888 !important;
+}
+
+/* Scrollbar */
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #888888;
+}
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #aaaaaa;
+}
+
+/* Dropdown menus */
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-dropdown-menu,
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-dropdown-menu-item,
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-dropdown-menu-item .ant-btn {
+  background: rgba(136,136,136,0.95) !important;
+  border: 2px solid #888888 !important;
+  color: #ffffff !important;
+}
+
+/* Hover */
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-dropdown-menu-item:hover {
+  background: rgba(170,170,170,0.8) !important;
+  color: #0A0A0F !important;
+}
+
+/* Tooltip */
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"]:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #888888 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #aaaaaa !important;
+  box-shadow: 0 0 10px rgba(136,136,136,0.35) !important;
+}
+
+
+/* ============================================
    ARTEMIS CARD OVERRIDE – RED & BRIGHT GOLD (FULL)
-   ==================================================== */
+   ============================================ */
 
 a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant-card {
   border-color: #d62828 !important;
   border-radius: 8px !important;
-  box-shadow: 0 0 20px rgba(214, 40, 40, 0.3), 0 0 30px rgba(255, 223, 0, 0.3) inset;
+  box-shadow: 0 0 20px rgba(214,40,40,0.35), 0 0 30px rgba(255,223,0,0.35) inset;
 }
 a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant-card:hover {
-  box-shadow: 0 0 30px rgba(214, 40, 40, 0.55), 0 0 40px rgba(255, 223, 0, 0.45) inset;
+  box-shadow: 0 0 30px rgba(214,40,40,0.6), 0 0 40px rgba(255,223,0,0.55) inset;
 }
 
 /* Tags */
@@ -1123,7 +1131,7 @@ a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant
   color: #d62828 !important;
 }
 a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant-tag:hover {
-  box-shadow: 0 0 20px rgba(214, 40, 40, 0.55), 0 0 25px rgba(255, 223, 0, 0.25) inset !important;
+  box-shadow: 0 0 20px rgba(214,40,40,0.55), 0 0 25px rgba(255,223,0,0.35) inset !important;
 }
 
 /* Quote & link text */
@@ -1141,7 +1149,7 @@ a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant
 
 /* Ribbon */
 a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .fake-ribbon {
-  background: rgba(255, 223, 0, 0.18) !important;
+  background: rgba(255,223,0,0.2) !important;
   border: 2px solid #d62828 !important;
   color: #d62828 !important;
 }
@@ -1151,12 +1159,12 @@ a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant
   border-color: #d62828 !important;
   color: #d62828 !important;
   background-color: transparent !important;
-  box-shadow: 0 0 10px rgba(214, 40, 40, 0.3), 0 0 15px rgba(255, 223, 0, 0.2) inset;
+  box-shadow: 0 0 10px rgba(214,40,40,0.35), 0 0 15px rgba(255,223,0,0.25) inset;
 }
 a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant-btn:hover {
   background-color: #d62828 !important;
   color: #0A0A0F !important;
-  box-shadow: 0 0 20px rgba(214, 40, 40, 0.55), 0 0 25px rgba(255, 223, 0, 0.35) inset !important;
+  box-shadow: 0 0 20px rgba(214,40,40,0.6), 0 0 25px rgba(255,223,0,0.45) inset !important;
 }
 
 /* More dropdown icon */
@@ -1182,14 +1190,14 @@ a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .cus
 a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant-dropdown-menu,
 a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant-dropdown-menu-item,
 a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant-dropdown-menu-item .ant-btn {
-  background: rgba(214, 40, 40, 0.95) !important;
+  background: rgba(214,40,40,0.95) !important;
   border: 2px solid #d62828 !important;
   color: #ffffff !important;
 }
 
 /* Hover */
 a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant-dropdown-menu-item:hover {
-  background: rgba(255, 223, 0, 0.8) !important;
+  background: rgba(255,223,0,0.8) !important;
   color: #0A0A0F !important;
 }
 
@@ -1198,6 +1206,5 @@ a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"]:hove
   background-color: #d62828 !important;
   color: #0A0A0F !important;
   border: 2px solid #ffd700 !important;
-  box-shadow: 0 0 12px rgba(214, 40, 40, 0.55), 0 0 20px rgba(255, 223, 0, 0.35) inset !important;
+  box-shadow: 0 0 12px rgba(214,40,40,0.55), 0 0 20px rgba(255,223,0,0.35) inset !important;
 }
-
