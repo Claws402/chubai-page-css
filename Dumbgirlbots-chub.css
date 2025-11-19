@@ -349,3 +349,276 @@ a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"]:h
 a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
   border-top-color: #ff66cc !important; /* arrow matches tooltip background */
 }
+
+/* ============================================
+   NESITIRI CARD OVERRIDE – DEEP GOLD
+   ============================================ */
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-card {
+  border-color: #FFD700 !important;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-tag {
+  border-color: #FFD700 !important;
+  color: #FFD700 !important;
+}
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-tag:hover {
+  border-color: #FFE066 !important;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] a,
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .quote-color {
+  color: #FFD700 !important;
+}
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] svg,
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .anticon {
+  stroke: #FFD700 !important;
+  fill: #FFD700 !important;
+}
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .fake-ribbon {
+  background: rgba(255, 215, 0, 0.2) !important;
+  border: 2px solid #FFD700 !important;
+  color: #FFD700 !important;
+}
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-btn {
+  border-color: #FFD700 !important;
+  color: #FFD700 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-btn:hover {
+  background-color: #FFD700 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-dropdown-trigger svg {
+  fill: #FFD700 !important;
+  stroke: #FFD700 !important;
+}
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-btn[style*="color: gray"] {
+  color: #FFD700 !important;
+}
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #FFD700;
+}
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #FFE066;
+}
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #FFD700 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #FFE066 !important;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #FFD700 !important;
+}
+
+/* ============================================
+   ESME CARD OVERRIDE – FADED METALLIC BLUE
+   ============================================ */
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] .ant-card {
+  border-color: #6699CC !important;
+  box-shadow: 0 0 15px rgba(102, 153, 204, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(102, 153, 204, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] .ant-tag {
+  border-color: #6699CC !important;
+  color: #6699CC !important;
+}
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] .ant-tag:hover {
+  border-color: #99BBDD !important;
+  box-shadow: 0 0 15px rgba(102, 153, 204, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] a,
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] .quote-color {
+  color: #6699CC !important;
+}
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] svg,
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] .anticon {
+  stroke: #6699CC !important;
+  fill: #6699CC !important;
+}
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] .fake-ribbon {
+  background: rgba(102, 153, 204, 0.2) !important;
+  border: 2px solid #6699CC !important;
+  color: #6699CC !important;
+}
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] .ant-btn {
+  border-color: #6699CC !important;
+  color: #6699CC !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(102, 153, 204, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] .ant-btn:hover {
+  background-color: #6699CC !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(102, 153, 204, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] .ant-dropdown-trigger svg {
+  fill: #6699CC !important;
+  stroke: #6699CC !important;
+}
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] .ant-btn[style*="color: gray"] {
+  color: #6699CC !important;
+}
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #6699CC;
+}
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #99BBDD;
+}
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #6699CC !important;
+  color: #0A0A0F !important;
+  border: 2px solid #99BBDD !important;
+  box-shadow: 0 0 10px rgba(102, 153, 204, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/esme-the-soft-assassin-e79feb21e519"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #6699CC !important;
+}
+
+/* ============================================
+   WINCHESTER BROTHERS CARD OVERRIDE – CRIMSON
+   ============================================ */
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] .ant-card {
+  border-color: #DC143C !important;
+  box-shadow: 0 0 15px rgba(220, 20, 60, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(220, 20, 60, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] .ant-tag {
+  border-color: #DC143C !important;
+  color: #DC143C !important;
+}
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] .ant-tag:hover {
+  border-color: #FF3366 !important;
+  box-shadow: 0 0 15px rgba(220, 20, 60, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] a,
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] .quote-color {
+  color: #DC143C !important;
+}
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] svg,
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] .anticon {
+  stroke: #DC143C !important;
+  fill: #DC143C !important;
+}
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] .fake-ribbon {
+  background: rgba(220, 20, 60, 0.2) !important;
+  border: 2px solid #DC143C !important;
+  color: #DC143C !important;
+}
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] .ant-btn {
+  border-color: #DC143C !important;
+  color: #DC143C !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(220, 20, 60, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] .ant-btn:hover {
+  background-color: #DC143C !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(220, 20, 60, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] .ant-dropdown-trigger svg {
+  fill: #DC143C !important;
+  stroke: #DC143C !important;
+}
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] .ant-btn[style*="color: gray"] {
+  color: #DC143C !important;
+}
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #DC143C;
+}
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #FF3366;
+}
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #DC143C !important;
+  color: #0A0A0F !important;
+  border: 2px solid #FF3366 !important;
+  box-shadow: 0 0 10px rgba(220, 20, 60, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #DC143C !important;
+}
+
+/* ============================================
+   SILENT GIRL CARD OVERRIDE – VIBRANT GREEN
+   ============================================ */
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-card {
+  border-color: #00FF66 !important;
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(0, 255, 102, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-tag {
+  border-color: #00FF66 !important;
+  color: #00FF66 !important;
+}
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-tag:hover {
+  border-color: #66FF99 !important;
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] a,
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .quote-color {
+  color: #00FF66 !important;
+}
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] svg,
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .anticon {
+  stroke: #00FF66 !important;
+  fill: #00FF66 !important;
+}
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .fake-ribbon {
+  background: rgba(0, 255, 102, 0.2) !important;
+  border: 2px solid #00FF66 !important;
+  color: #00FF66 !important;
+}
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-btn {
+  border-color: #00FF66 !important;
+  color: #00FF66 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(0, 255, 102, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-btn:hover {
+  background-color: #00FF66 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-dropdown-trigger svg {
+  fill: #00FF66 !important;
+  stroke: #00FF66 !important;
+}
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-btn[style*="color: gray"] {
+  color: #00FF66 !important;
+}
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #00FF66;
+}
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #66FF99;
+}
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #00FF66 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #66FF99 !important;
+  box-shadow: 0 0 10px rgba(0, 255, 102, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #00FF66 !important;
+}
+
