@@ -622,4 +622,295 @@ a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .an
   border-top-color: #00CC55 !important;
 }
 
+/* ============================================
+   LYSANDRA CARD OVERRIDE – ROYAL BLUE (FULL)
+   ============================================ */
+
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .ant-card {
+  border-color: #3366ff !important;
+  box-shadow: 0 0 15px rgba(51, 102, 255, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(51, 102, 255, 0.55) !important;
+}
+
+/* Tags */
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .ant-tag {
+  border-color: #3366ff !important;
+  color: #3366ff !important;
+}
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .ant-tag:hover {
+  border-color: #6699ff !important;
+  box-shadow: 0 0 15px rgba(51, 102, 255, 0.55) !important;
+}
+
+/* Quote & link text */
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] a,
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .quote-color {
+  color: #3366ff !important;
+}
+
+/* Icons */
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] svg,
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .anticon {
+  stroke: #3366ff !important;
+  fill: #3366ff !important;
+}
+
+/* Ribbon */
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .fake-ribbon {
+  background: rgba(51, 102, 255, 0.2) !important;
+  border: 2px solid #3366ff !important;
+  color: #3366ff !important;
+}
+
+/* Buttons */
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .ant-btn {
+  border-color: #3366ff !important;
+  color: #3366ff !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(51, 102, 255, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .ant-btn:hover {
+  background-color: #3366ff !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(51, 102, 255, 0.55) !important;
+}
+
+/* More dropdown icon */
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .ant-dropdown-trigger svg {
+  fill: #3366ff !important;
+  stroke: #3366ff !important;
+}
+
+/* Force gray text recolor */
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .ant-btn[style*="color: gray"] {
+  color: #3366ff !important;
+}
+
+/* Scrollbar */
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #3366ff;
+}
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #6699ff;
+}
+
+/* Dropdown menus */
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .ant-dropdown-menu,
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .ant-dropdown-menu-item,
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .ant-dropdown-menu-item .ant-btn {
+  background: rgba(51, 102, 255, 0.95) !important;
+  border: 2px solid #3366ff !important;
+  color: #e6ecff !important;
+}
+
+/* Hover */
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"] .ant-dropdown-menu-item:hover {
+  background: rgba(102, 153, 255, 0.8) !important;
+  color: #0A0A0F !important;
+}
+
+/* Tooltip */
+a[href="/characters/DumbGirlBots/lysandra-the-retarded-queen-43ba11ed1e2f"]:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #3366ff !important;
+  color: #0A0A0F !important;
+  border: 2px solid #6699ff !important;
+  box-shadow: 0 0 10px rgba(51, 102, 255, 0.5) !important;
+}
+
+/* ====================================================
+   OLIVIENNE CARD OVERRIDE – CYAN & WHITE (FULL)
+   ==================================================== */
+
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .ant-card {
+  border-color: #33eeff !important;
+  box-shadow: 0 0 15px rgba(51, 238, 255, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(51, 238, 255, 0.55) !important;
+}
+
+/* Tags */
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .ant-tag {
+  border-color: #33eeff !important;
+  color: #33eeff !important;
+}
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .ant-tag:hover {
+  border-color: #88f8ff !important;
+  box-shadow: 0 0 15px rgba(51, 238, 255, 0.55) !important;
+}
+
+/* Quote & link text */
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] a,
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .quote-color {
+  color: #33eeff !important;
+}
+
+/* Icons */
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] svg,
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .anticon {
+  stroke: #33eeff !important;
+  fill: #33eeff !important;
+}
+
+/* Ribbon */
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .fake-ribbon {
+  background: rgba(51, 238, 255, 0.18) !important;
+  border: 2px solid #33eeff !important;
+  color: #33eeff !important;
+}
+
+/* Buttons */
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .ant-btn {
+  border-color: #33eeff !important;
+  color: #33eeff !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(51, 238, 255, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .ant-btn:hover {
+  background-color: #33eeff !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(51, 238, 255, 0.55) !important;
+}
+
+/* More dropdown icon */
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .ant-dropdown-trigger svg {
+  fill: #33eeff !important;
+  stroke: #33eeff !important;
+}
+
+/* Gray text fix */
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .ant-btn[style*="color: gray"] {
+  color: #33eeff !important;
+}
+
+/* Scrollbar */
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #33eeff;
+}
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #88f8ff;
+}
+
+/* Dropdown menus */
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .ant-dropdown-menu,
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .ant-dropdown-menu-item,
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .ant-dropdown-menu-item .ant-btn {
+  background: rgba(51, 238, 255, 0.95) !important;
+  border: 2px solid #33eeff !important;
+  color: #ffffff !important;
+}
+
+/* Hover */
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"] .ant-dropdown-menu-item:hover {
+  background: rgba(136, 248, 255, 0.8) !important;
+  color: #0A0A0F !important;
+}
+
+/* Tooltip */
+a[href="/characters/DumbGirlBots/olivienne-the-holy-imbecile-46a4999ab289"]:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #33eeff !important;
+  color: #0A0A0F !important;
+  border: 2px solid #88f8ff !important;
+  box-shadow: 0 0 10px rgba(51, 238, 255, 0.55) !important;
+}
+
+/* ============================================
+   LUNARA CARD OVERRIDE – NEON PURPLE (FULL)
+   ============================================ */
+
+/* Card border & shadow */
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .ant-card {
+  border-color: #cc33ff !important;
+  box-shadow: 0 0 15px rgba(204, 51, 255, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(204, 51, 255, 0.55) !important;
+}
+
+/* Tags */
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .ant-tag {
+  border-color: #cc33ff !important;
+  color: #cc33ff !important;
+}
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .ant-tag:hover {
+  border-color: #e380ff !important;
+  box-shadow: 0 0 15px rgba(204, 51, 255, 0.55) !important;
+}
+
+/* Quote & link text */
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] a,
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .quote-color {
+  color: #cc33ff !important;
+}
+
+/* SVG icons */
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] svg,
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .anticon {
+  stroke: #cc33ff !important;
+  fill: #cc33ff !important;
+}
+
+/* Ribbon */
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .fake-ribbon {
+  background: rgba(204, 51, 255, 0.2) !important;
+  border: 2px solid #cc33ff !important;
+  color: #cc33ff !important;
+}
+
+/* Buttons */
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .ant-btn {
+  border-color: #cc33ff !important;
+  color: #cc33ff !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(204, 51, 255, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .ant-btn:hover {
+  background-color: #cc33ff !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(204, 51, 255, 0.55) !important;
+}
+
+/* More dropdown icon */
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .ant-dropdown-trigger svg {
+  fill: #cc33ff !important;
+  stroke: #cc33ff !important;
+}
+
+/* Inline gray force recolor */
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .ant-btn[style*="color: gray"] {
+  color: #cc33ff !important;
+}
+
+/* Scrollbar */
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #cc33ff;
+}
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #e380ff;
+}
+
+/* Dropdowns */
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .ant-dropdown-menu,
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .ant-dropdown-menu-item,
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .ant-dropdown-menu-item .ant-btn {
+  background: rgba(204, 51, 255, 0.95) !important;
+  border: 2px solid #cc33ff !important;
+  color: #f6e6ff !important;
+}
+
+/* Hover */
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"] .ant-dropdown-menu-item:hover {
+  background: rgba(227, 128, 255, 0.8) !important;
+  color: #0A0A0F !important;
+}
+
+/* Tooltip */
+a[href="/characters/DumbGirlBots/lunara-the-incompetent-villainess-6f7934801683"]:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #cc33ff !important;
+  color: #0A0A0F !important;
+  border: 2px solid #e380ff !important;
+  box-shadow: 0 0 10px rgba(204, 51, 255, 0.5) !important;
+}
 
