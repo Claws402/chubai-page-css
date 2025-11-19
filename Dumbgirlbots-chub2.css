@@ -1,26 +1,36 @@
 /* ====================================================
-   VIVIE CARD OVERRIDE – RAINBOW GRADIENT
+   VIVIE CARD OVERRIDE – RAINBOW GRADIENT WITH CURVED BORDERS
    ==================================================== */
 
 a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-card {
-  border: 4px solid;
-  border-image: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet) 1;
+  position: relative;
   border-radius: 8px !important;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.25) !important;
+  overflow: hidden;
+  border: 2px solid transparent;
+  z-index: 0;
+  background-color: #0A0A0F; /* fallback card background */
 }
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-card:hover {
-  box-shadow: 0 0 25px rgba(255, 255, 255, 0.55) !important;
+
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-card::before {
+  content: "";
+  position: absolute;
+  top: -2px; left: -2px; right: -2px; bottom: -2px;
+  background: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet);
+  z-index: -1;
+  border-radius: 10px;
+  filter: blur(6px);
 }
 
 /* Tags */
 a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-tag {
   border-radius: 8px !important;
-  border: 2px solid;
-  border-image: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet) 1;
+  border: 2px solid transparent;
+  background: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
   color: white !important;
 }
 a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-tag:hover {
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.55) !important;
+  box-shadow: 0 0 12px rgba(255,255,255,0.55) !important;
 }
 
 /* Quote & link text */
@@ -39,6 +49,7 @@ a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .a
 /* Ribbon */
 a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .fake-ribbon {
   background: rgba(255,255,255,0.18) !important;
+  border-radius: 8px !important;
   border: 2px solid white !important;
   color: white !important;
 }
@@ -46,16 +57,51 @@ a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .f
 /* Buttons */
 a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-btn {
   border-radius: 8px !important;
-  border: 2px solid white !important;
+  border: 2px solid transparent;
+  background: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
   color: white !important;
-  background-color: transparent !important;
   box-shadow: 0 0 8px rgba(255,255,255,0.25) !important;
 }
 a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-btn:hover {
-  background: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet) !important;
+  background: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet);
   color: black !important;
   box-shadow: 0 0 15px rgba(255,255,255,0.55) !important;
 }
+
+/* Scrollbar */
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet);
+  border-radius: 8px;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  filter: brightness(1.2);
+}
+
+/* Dropdown menus */
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-dropdown-menu,
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-dropdown-menu-item,
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-dropdown-menu-item .ant-btn {
+  background: rgba(255,255,255,0.05) !important;
+  border-radius: 8px !important;
+  border: 2px solid white !important;
+  color: #ffffff !important;
+}
+
+/* Hover */
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-dropdown-menu-item:hover {
+  background: rgba(255,255,255,0.15) !important;
+  color: #0A0A0F !important;
+}
+
+/* Tooltip */
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"]:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: white !important;
+  color: #0A0A0F !important;
+  border: 2px solid rgba(255,255,255,0.55) !important;
+  box-shadow: 0 0 10px rgba(255,255,255,0.55) !important;
+}
+
 
 /* ====================================================
    JESSIKA CARD OVERRIDE – GREY
