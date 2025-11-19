@@ -1,109 +1,4 @@
 /* ====================================================
-   VIVIE CARD OVERRIDE – RAINBOW GRADIENT WITH CURVED BORDERS
-   ==================================================== */
-
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-card {
-  position: relative;
-  border-radius: 8px !important;
-  overflow: hidden;
-  border: 2px solid transparent;
-  z-index: 0;
-  background-color: #0A0A0F; /* fallback card background */
-}
-
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-card::before {
-  content: "";
-  position: absolute;
-  top: -2px; left: -2px; right: -2px; bottom: -2px;
-  background: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet);
-  z-index: -1;
-  border-radius: 10px;
-  filter: blur(6px);
-}
-
-/* Tags */
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-tag {
-  border-radius: 8px !important;
-  border: 2px solid transparent;
-  background: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet);
-  -webkit-background-clip: text;
-  color: white !important;
-}
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-tag:hover {
-  box-shadow: 0 0 12px rgba(255,255,255,0.55) !important;
-}
-
-/* Quote & link text */
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] a,
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .quote-color {
-  color: white !important;
-}
-
-/* Icons */
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] svg,
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .anticon {
-  stroke: white !important;
-  fill: white !important;
-}
-
-/* Ribbon */
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .fake-ribbon {
-  background: rgba(255,255,255,0.18) !important;
-  border-radius: 8px !important;
-  border: 2px solid white !important;
-  color: white !important;
-}
-
-/* Buttons */
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-btn {
-  border-radius: 8px !important;
-  border: 2px solid transparent;
-  background: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet);
-  -webkit-background-clip: text;
-  color: white !important;
-  box-shadow: 0 0 8px rgba(255,255,255,0.25) !important;
-}
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-btn:hover {
-  background: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet);
-  color: black !important;
-  box-shadow: 0 0 15px rgba(255,255,255,0.55) !important;
-}
-
-/* Scrollbar */
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .custom-scroll::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet);
-  border-radius: 8px;
-}
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .custom-scroll::-webkit-scrollbar-thumb:hover {
-  filter: brightness(1.2);
-}
-
-/* Dropdown menus */
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-dropdown-menu,
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-dropdown-menu-item,
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-dropdown-menu-item .ant-btn {
-  background: rgba(255,255,255,0.05) !important;
-  border-radius: 8px !important;
-  border: 2px solid white !important;
-  color: #ffffff !important;
-}
-
-/* Hover */
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-dropdown-menu-item:hover {
-  background: rgba(255,255,255,0.15) !important;
-  color: #0A0A0F !important;
-}
-
-/* Tooltip */
-a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"]:hover ~ .ant-tooltip .ant-tooltip-inner {
-  background-color: white !important;
-  color: #0A0A0F !important;
-  border: 2px solid rgba(255,255,255,0.55) !important;
-  box-shadow: 0 0 10px rgba(255,255,255,0.55) !important;
-}
-
-
-/* ====================================================
    JESSIKA CARD OVERRIDE – GREY
    ==================================================== */
 
@@ -514,4 +409,325 @@ a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"]:ho
 a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow,
 a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
   border-top-color: #556B2F !important; /* arrow matches tooltip background */
+}
+
+/* ============================================
+   KINGDOM OF DUMBRIA CARD OVERRIDE – TERRACOTTA RED
+   ============================================ */
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .ant-card {
+  border-color: #E2725B !important;
+  box-shadow: 0 0 15px rgba(226, 114, 91, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(226, 114, 91, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .ant-tag {
+  border-color: #E2725B !important;
+  color: #E2725B !important;
+}
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .ant-tag:hover {
+  border-color: #F1948A !important;
+  box-shadow: 0 0 15px rgba(226, 114, 91, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] a,
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .quote-color {
+  color: #E2725B !important;
+}
+
+/* SVG icons */
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] svg,
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .anticon {
+  stroke: #E2725B !important;
+  fill: #E2725B !important;
+}
+
+/* Ribbon */
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .fake-ribbon {
+  background: rgba(226, 114, 91, 0.2) !important;
+  border: 2px solid #E2725B !important;
+  color: #E2725B !important;
+}
+
+/* Buttons */
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .ant-btn {
+  border-color: #E2725B !important;
+  color: #E2725B !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(226, 114, 91, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .ant-btn:hover {
+  background-color: #E2725B !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(226, 114, 91, 0.5) !important;
+}
+
+/* “More” dropdown icon */
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .ant-dropdown-trigger svg {
+  fill: #E2725B !important;
+  stroke: #E2725B !important;
+}
+
+/* Force inline gray text to terracotta */
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .ant-btn[style*="color: gray"] {
+  color: #E2725B !important;
+}
+
+/* Scrollbar */
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #E2725B;
+}
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #F1948A;
+}
+
+/* ============================================
+   DITZY ADVENTURER CARD OVERRIDE – SILVER & GUNMETAL
+   ============================================ */
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .ant-card {
+  border-color: #C0C0C0 !important;
+  box-shadow: 0 0 15px rgba(192, 192, 192, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(192, 192, 192, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .ant-tag {
+  border-color: #C0C0C0 !important;
+  color: #C0C0C0 !important;
+}
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .ant-tag:hover {
+  border-color: #A9A9A9 !important;
+  box-shadow: 0 0 15px rgba(192, 192, 192, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] a,
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .quote-color {
+  color: #C0C0C0 !important;
+}
+
+/* SVG icons */
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] svg,
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .anticon {
+  stroke: #C0C0C0 !important;
+  fill: #C0C0C0 !important;
+}
+
+/* Ribbon */
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .fake-ribbon {
+  background: rgba(192, 192, 192, 0.2) !important;
+  border: 2px solid #C0C0C0 !important;
+  color: #C0C0C0 !important;
+}
+
+/* Buttons */
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .ant-btn {
+  border-color: #C0C0C0 !important;
+  color: #C0C0C0 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(192, 192, 192, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .ant-btn:hover {
+  background-color: #C0C0C0 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(192, 192, 192, 0.5) !important;
+}
+
+/* “More” dropdown icon */
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .ant-dropdown-trigger svg {
+  fill: #C0C0C0 !important;
+  stroke: #C0C0C0 !important;
+}
+
+/* Force inline gray text to silver */
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .ant-btn[style*="color: gray"] {
+  color: #C0C0C0 !important;
+}
+
+/* Scrollbar */
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #C0C0C0;
+}
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #A9A9A9;
+}
+
+/* ============================================
+   YOUR VICTIM'S FAMILY CARD OVERRIDE – SANDY BROWN & OCEAN BLUE
+   ============================================ */
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .ant-card {
+  border-color: #F4A460 !important;
+  box-shadow: 0 0 15px rgba(244, 164, 96, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(244, 164, 96, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .ant-tag {
+  border-color: #F4A460 !important;
+  color: #F4A460 !important;
+}
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .ant-tag:hover {
+  border-color: #87CEFA !important;
+  box-shadow: 0 0 15px rgba(244, 164, 96, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] a,
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .quote-color {
+  color: #F4A460 !important;
+}
+
+/* SVG icons */
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] svg,
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .anticon {
+  stroke: #F4A460 !important;
+  fill: #F4A460 !important;
+}
+
+/* Ribbon */
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .fake-ribbon {
+  background: rgba(244, 164, 96, 0.2) !important;
+  border: 2px solid #F4A460 !important;
+  color: #F4A460 !important;
+}
+
+/* Buttons */
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .ant-btn {
+  border-color: #F4A460 !important;
+  color: #F4A460 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(244, 164, 96, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .ant-btn:hover {
+  background-color: #F4A460 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(244, 164, 96, 0.5) !important;
+}
+
+/* “More” dropdown icon */
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .ant-dropdown-trigger svg {
+  fill: #F4A460 !important;
+  stroke: #F4A460 !important;
+}
+
+/* Force inline gray text to sandy brown */
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .ant-btn[style*="color: gray"] {
+  color: #F4A460 !important;
+}
+
+/* Scrollbar */
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #F4A460;
+}
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #87CEFA;
+}
+
+/* ============================================
+   VIVIE CARD OVERRIDE – STRAW BLONDE
+   ============================================ */
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-card {
+  border-color: #F5DEB3 !important; /* straw blonde */
+  box-shadow: 0 0 15px rgba(245, 222, 179, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(245, 222, 179, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-tag {
+  border-color: #F5DEB3 !important;
+  color: #F5DEB3 !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-tag:hover {
+  border-color: #FFE4B5 !important;
+  box-shadow: 0 0 15px rgba(245, 222, 179, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] a,
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .quote-color {
+  color: #F5DEB3 !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] svg,
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .anticon {
+  stroke: #F5DEB3 !important;
+  fill: #F5DEB3 !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .fake-ribbon {
+  background: rgba(245, 222, 179, 0.2) !important;
+  border: 2px solid #F5DEB3 !important;
+  color: #F5DEB3 !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-btn {
+  border-color: #F5DEB3 !important;
+  color: #F5DEB3 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(245, 222, 179, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-btn:hover {
+  background-color: #F5DEB3 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(245, 222, 179, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-dropdown-trigger svg {
+  fill: #F5DEB3 !important;
+  stroke: #F5DEB3 !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-btn[style*="color: gray"] {
+  color: #F5DEB3 !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #F5DEB3;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #FFE4B5;
+}
+
+/* ============================================
+   THE FRONTROOMS CARD OVERRIDE – VIBRANT HALLOWEEN ORANGE
+   ============================================ */
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .ant-card {
+  border-color: #FF7518 !important; /* halloween orange */
+  box-shadow: 0 0 15px rgba(255, 117, 24, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(255, 117, 24, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .ant-tag {
+  border-color: #FF7518 !important;
+  color: #FF7518 !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .ant-tag:hover {
+  border-color: #FFA54F !important;
+  box-shadow: 0 0 15px rgba(255, 117, 24, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] a,
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .quote-color {
+  color: #FF7518 !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] svg,
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .anticon {
+  stroke: #FF7518 !important;
+  fill: #FF7518 !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .fake-ribbon {
+  background: rgba(255, 117, 24, 0.2) !important;
+  border: 2px solid #FF7518 !important;
+  color: #FF7518 !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .ant-btn {
+  border-color: #FF7518 !important;
+  color: #FF7518 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(255, 117, 24, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .ant-btn:hover {
+  background-color: #FF7518 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(255, 117, 24, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .ant-dropdown-trigger svg {
+  fill: #FF7518 !important;
+  stroke: #FF7518 !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .ant-btn[style*="color: gray"] {
+  color: #FF7518 !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #FF7518;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #FFA54F;
 }
