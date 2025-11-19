@@ -314,3 +314,21 @@ body > .ant-dropdown .ant-dropdown-menu-item .ant-btn {
 body > .ant-dropdown .ant-dropdown-menu-item .ant-btn:hover {
   color: #ff99dd !important;
 }
+
+/* ============================================
+   CIEL TOOLTIP OVERRIDE – PINK CYBERPUNK
+   ============================================ */
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #ff66cc !important;
+  color: #0A0A0F !important;
+  border: 2px solid #ff99dd !important;
+  box-shadow: 0 0 10px rgba(255, 102, 204, 0.5) !important;
+  font-size: 0.85rem !important;
+  border-radius: 4px !important;
+}
+
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #ff66cc !important; /* arrow matches tooltip background */
+}
