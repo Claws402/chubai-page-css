@@ -354,25 +354,6 @@ a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .
    NESITIRI CARD OVERRIDE – DEEPER GOLD
    ============================================ */
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-card {
-  position: relative;
-  border-radius: 8px !important;
-  overflow: hidden;
-  border: 2px solid transparent;
-  z-index: 0;
-  background-color: #0A0A0F; /* fallback card background */
-}
-
-a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-card::before {
-  content: "";
-  position: absolute;
-  top: -2px; left: -2px; right: -2px; bottom: -2px;
-  background-color: #4B2E2B; /* solid dark leather brown */
-  z-index: -1;
-  border-radius: 10px;
-  filter: blur(6px); /* subtle glow effect */
-}
-
-a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-card {
   border-color: #B8860B !important;
   box-shadow: 0 0 15px rgba(184, 134, 11, 0.25) !important;
 }
