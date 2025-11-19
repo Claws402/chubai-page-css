@@ -366,7 +366,7 @@ a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant
   content: "";
   position: absolute;
   top: -2px; left: -2px; right: -2px; bottom: -2px;
-  background: linear-gradient(135deg, #8B4513, #A0522D, #D2691E); /* brown gradient */
+  background-color: #4B2E2B; /* solid dark leather brown */
   z-index: -1;
   border-radius: 10px;
   filter: blur(6px); /* subtle glow effect */
