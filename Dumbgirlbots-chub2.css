@@ -199,3 +199,44 @@ a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant
   color: #ffcc00 !important;
   box-shadow: 0 0 15px rgba(255,204,0,0.55) !important;
 }
+
+/* ====================================================
+   ELLIE CARD OVERRIDE – BLUSHY BEIGE
+   ==================================================== */
+
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-card {
+  border-color: #E6CFC2 !important;
+  box-shadow: none !important;
+  border-radius: 8px !important;
+}
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-card:hover {
+  box-shadow: none !important;
+}
+
+/* Tags */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-tag {
+  border-color: #E6CFC2 !important;
+  color: #E6CFC2 !important;
+  border-radius: 8px !important;
+}
+
+/* Quote & link text */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] a,
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .quote-color {
+  color: #E6CFC2 !important;
+}
+
+/* Icons */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] svg,
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .anticon {
+  stroke: #E6CFC2 !important;
+  fill: #E6CFC2 !important;
+}
+
+/* Buttons */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-btn {
+  border-color: #E6CFC2 !important;
+  color: #E6CFC2 !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
