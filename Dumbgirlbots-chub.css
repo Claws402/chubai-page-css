@@ -189,7 +189,7 @@ a:hover {
 }
 
 /* ============================================
-   CIEL CARD OVERRIDE – PINK CYBERPUNK
+   CIEL CARD OVERRIDE – PINK CYBERPUNK (FULL)
    ============================================ */
 a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-card {
   border-color: #ff66cc !important;
@@ -210,19 +210,47 @@ a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .
   box-shadow: 0 0 15px rgba(255, 102, 204, 0.5) !important;
 }
 
+/* Quote & link text */
 a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] a,
 a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .quote-color {
   color: #ff66cc !important;
 }
 
+/* SVG icons anywhere in card (stats, header, buttons) */
 a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] svg,
 a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .anticon {
   stroke: #ff66cc !important;
   fill: #ff66cc !important;
 }
 
+/* Ribbon stats at bottom */
 a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .fake-ribbon {
   background: rgba(255, 102, 204, 0.2) !important;
   border: 2px solid #ff66cc !important;
+  color: #ff66cc !important;
+}
+
+/* BUTTON OVERRIDES */
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-btn {
+  border-color: #ff66cc !important;
+  color: #ff66cc !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(255, 102, 204, 0.25) !important;
+}
+
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-btn:hover {
+  background-color: #ff66cc !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(255, 102, 204, 0.5) !important;
+}
+
+/* Dropdown “more” button icon specifically */
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-dropdown-trigger svg {
+  fill: #ff66cc !important;
+  stroke: #ff66cc !important;
+}
+
+/* Force inline gray text to pink */
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-btn[style*="color: gray"] {
   color: #ff66cc !important;
 }
