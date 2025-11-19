@@ -254,3 +254,22 @@ a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .
 a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-btn[style*="color: gray"] {
   color: #ff66cc !important;
 }
+
+/* Ciel card horizontal scrollbar for tags */
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .custom-scroll::-webkit-scrollbar {
+    height: 8px; /* horizontal scrollbar */
+}
+
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .custom-scroll::-webkit-scrollbar-track {
+    background: #111122;
+    border-radius: 4px;
+}
+
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .custom-scroll::-webkit-scrollbar-thumb {
+    background: #ff66cc;
+    border-radius: 4px;
+}
+
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+    background: #ff99dd;
+}
