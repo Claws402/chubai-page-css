@@ -298,3 +298,26 @@ a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] +
     color: #ff99dd !important;
 }
 
+/* Ciel hover-triggered dropdowns */
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-dropdown-trigger + .ant-dropdown,
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-dropdown-trigger + .ant-dropdown .ant-dropdown-menu {
+    background: rgba(255, 102, 204, 0.95) !important;  /* pink background */
+    border: 2px solid #ff66cc !important;
+    color: #ffe6f2 !important;
+}
+
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-dropdown-trigger + .ant-dropdown .ant-dropdown-menu-item {
+    color: #ffe6f2 !important;
+}
+
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-dropdown-trigger + .ant-dropdown .ant-dropdown-menu-item:hover {
+    background: rgba(255, 153, 221, 0.8) !important;
+}
+
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-dropdown-trigger + .ant-dropdown .ant-btn {
+    color: #ffe6f2 !important;
+}
+
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-dropdown-trigger + .ant-dropdown .ant-btn:hover {
+    color: #ff99dd !important;
+}
