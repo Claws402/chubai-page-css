@@ -189,54 +189,68 @@ a:hover {
 }
 
 /* ============================================
-   CIEL CARD – LAVENDER / PAPYRUS ACCENT ONLY
+   CIEL CARD – CYBERPUNK PINK THEME CLONE
    ============================================ */
 a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-card {
-    border-color: #c1a3d3 !important;
-    box-shadow: 0 0 18px rgba(193,163,211,0.35) !important;
-    font-family: "Papyrus", "Georgia", serif !important;
-    color: #3b1f3c !important;
+    border: 2px solid #ff7ae6 !important; /* neon pink */
+    background: rgba(20, 0, 25, 0.85) !important;
+    box-shadow: 0 0 18px rgba(255, 122, 230, 0.45) !important;
+    color: #ffd8f7 !important;
+    transition: all 0.25s ease !important;
 }
 
-/* Card hover glow */
+/* Hover pulse glow */
 a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-card:hover {
-    box-shadow: 0 0 25px rgba(234,202,255,0.5) !important;
+    box-shadow: 0 0 28px rgba(255, 122, 230, 0.75) !important;
+    transform: translateY(-2px) !important;
 }
 
-/* Change the title text color and background */
+/* Title bar (same shape, size, spacing) */
 a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-card-head-title {
-    background: #f8d9f5 !important;     /* soft pink backing */
-    color: #5e2a6f !important;          /* deep purple papyrus */
-    font-family: "Papyrus", serif !important;
-    font-weight: 600 !important;
-    padding: 6px 10px !important;
+    background: rgba(255, 190, 245, 0.25) !important;
     border-radius: 6px !important;
+    padding: 0.25rem 0.5rem !important;
+    font-family: "Papyrus", "Orbitron", sans-serif !important;
+    color: #ff7ae6 !important;
+    text-shadow: 0 0 6px rgba(255, 122, 230, 0.5) !important;
 }
 
-/* Purple accent icon & stat bar at bottom */
+/* Card body text, unchanged layout */
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-card-body {
+    font-family: "Papyrus", "Orbitron", sans-serif !important;
+    color: #ffd8f7 !important;
+}
+
+/* Stat icons + counters */
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] svg,
 a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .anticon,
-a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .stats,
-a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] svg {
-    color: #5e2a6f !important;
-    fill: #5e2a6f !important;
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .stats {
+    color: #ff7ae6 !important;
+    fill: #ff7ae6 !important;
 }
 
-/* Bottom stat area ribbon */
+/* Stat ribbon bar */
 a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .fake-ribbon {
-    background: rgba(240, 216, 250, 0.7) !important;
-    border: 2px solid #c1a3d3 !important;
+    background: rgba(255, 190, 245, 0.15) !important;
+    border: 2px solid #ff7ae6 !important;
     border-radius: 12px !important;
-    font-family: "Papyrus", serif !important;
-    font-weight: 600 !important;
-    padding: 4px 6px !important;
-    color: #5e2a6f !important;
+    padding: 6px !important;
+    color: #ff7ae6 !important;
+    font-family: "Papyrus", "Orbitron", sans-serif !important;
 }
 
-/* Tag override */
+/* Quote text */
+a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .quote-color {
+    color: #ff7ae6 !important;
+    font-family: "Papyrus", "Orbitron", sans-serif !important;
+    font-style: italic !important;
+    text-shadow: 0 0 8px rgba(255, 122, 230, 0.7) !important;
+}
+
+/* Tags */
 a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .ant-tag {
-    background: rgba(193,163,211,0.25) !important;
-    border-color: #c1a3d3 !important;
-    color: #5e2a6f !important;
-    font-family: "Papyrus", serif !important;
+    background: rgba(255, 190, 245, 0.2) !important;
+    border: 1px solid #ff7ae6 !important;
+    color: #ff7ae6 !important;
+    font-family: "Papyrus", "Orbitron", sans-serif !important;
 }
-
