@@ -351,71 +351,71 @@ a[href="/characters/DumbGirlBots/ciel-the-boy-from-a-small-town-50e1c2167c78"] .
 }
 
 /* ============================================
-   NESITIRI CARD OVERRIDE – DEEP GOLD
+   NESITIRI CARD OVERRIDE – DEEPER GOLD
    ============================================ */
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-card {
-  border-color: #FFD700 !important;
-  box-shadow: 0 0 15px rgba(255, 215, 0, 0.25) !important;
+  border-color: #B8860B !important;
+  box-shadow: 0 0 15px rgba(184, 134, 11, 0.25) !important;
 }
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-card:hover {
-  box-shadow: 0 0 25px rgba(255, 215, 0, 0.5) !important;
+  box-shadow: 0 0 25px rgba(184, 134, 11, 0.5) !important;
 }
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-tag {
-  border-color: #FFD700 !important;
-  color: #FFD700 !important;
+  border-color: #B8860B !important;
+  color: #B8860B !important;
 }
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-tag:hover {
-  border-color: #FFE066 !important;
-  box-shadow: 0 0 15px rgba(255, 215, 0, 0.5) !important;
+  border-color: #D4A017 !important;
+  box-shadow: 0 0 15px rgba(184, 134, 11, 0.5) !important;
 }
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] a,
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .quote-color {
-  color: #FFD700 !important;
+  color: #B8860B !important;
 }
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] svg,
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .anticon {
-  stroke: #FFD700 !important;
-  fill: #FFD700 !important;
+  stroke: #B8860B !important;
+  fill: #B8860B !important;
 }
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .fake-ribbon {
-  background: rgba(255, 215, 0, 0.2) !important;
-  border: 2px solid #FFD700 !important;
-  color: #FFD700 !important;
+  background: rgba(184, 134, 11, 0.2) !important;
+  border: 2px solid #B8860B !important;
+  color: #B8860B !important;
 }
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-btn {
-  border-color: #FFD700 !important;
-  color: #FFD700 !important;
+  border-color: #B8860B !important;
+  color: #B8860B !important;
   background-color: transparent !important;
-  box-shadow: 0 0 8px rgba(255, 215, 0, 0.25) !important;
+  box-shadow: 0 0 8px rgba(184, 134, 11, 0.25) !important;
 }
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-btn:hover {
-  background-color: #FFD700 !important;
+  background-color: #B8860B !important;
   color: #0A0A0F !important;
-  box-shadow: 0 0 15px rgba(255, 215, 0, 0.5) !important;
+  box-shadow: 0 0 15px rgba(184, 134, 11, 0.5) !important;
 }
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-dropdown-trigger svg {
-  fill: #FFD700 !important;
-  stroke: #FFD700 !important;
+  fill: #B8860B !important;
+  stroke: #B8860B !important;
 }
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-btn[style*="color: gray"] {
-  color: #FFD700 !important;
+  color: #B8860B !important;
 }
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .custom-scroll::-webkit-scrollbar-thumb {
-  background: #FFD700;
+  background: #B8860B;
 }
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .custom-scroll::-webkit-scrollbar-thumb:hover {
-  background: #FFE066;
+  background: #D4A017;
 }
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"]:hover ~ .ant-tooltip .ant-tooltip-inner,
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
-  background-color: #FFD700 !important;
+  background-color: #B8860B !important;
   color: #0A0A0F !important;
-  border: 2px solid #FFE066 !important;
-  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5) !important;
+  border: 2px solid #D4A017 !important;
+  box-shadow: 0 0 10px rgba(184, 134, 11, 0.5) !important;
 }
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
 a[href="/characters/DumbGirlBots/nesitiri-the-pocket-pharaoh-742e2519dcb1"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
-  border-top-color: #FFD700 !important;
+  border-top-color: #B8860B !important;
 }
 
 /* ============================================
@@ -555,70 +555,71 @@ a[href="/characters/DumbGirlBots/the-winchester-brothers-bbac2dc3fa65"] .ant-btn
 }
 
 /* ============================================
-   SILENT GIRL CARD OVERRIDE – VIBRANT GREEN
+   SILENT GIRL CARD OVERRIDE – DARKER GREEN
    ============================================ */
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-card {
-  border-color: #00FF66 !important;
-  box-shadow: 0 0 15px rgba(0, 255, 102, 0.25) !important;
+  border-color: #00CC55 !important;
+  box-shadow: 0 0 15px rgba(0, 204, 85, 0.25) !important;
 }
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-card:hover {
-  box-shadow: 0 0 25px rgba(0, 255, 102, 0.5) !important;
+  box-shadow: 0 0 25px rgba(0, 204, 85, 0.5) !important;
 }
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-tag {
-  border-color: #00FF66 !important;
-  color: #00FF66 !important;
+  border-color: #00CC55 !important;
+  color: #00CC55 !important;
 }
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-tag:hover {
-  border-color: #66FF99 !important;
-  box-shadow: 0 0 15px rgba(0, 255, 102, 0.5) !important;
+  border-color: #33DD88 !important;
+  box-shadow: 0 0 15px rgba(0, 204, 85, 0.5) !important;
 }
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] a,
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .quote-color {
-  color: #00FF66 !important;
+  color: #00CC55 !important;
 }
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] svg,
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .anticon {
-  stroke: #00FF66 !important;
-  fill: #00FF66 !important;
+  stroke: #00CC55 !important;
+  fill: #00CC55 !important;
 }
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .fake-ribbon {
-  background: rgba(0, 255, 102, 0.2) !important;
-  border: 2px solid #00FF66 !important;
-  color: #00FF66 !important;
+  background: rgba(0, 204, 85, 0.2) !important;
+  border: 2px solid #00CC55 !important;
+  color: #00CC55 !important;
 }
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-btn {
-  border-color: #00FF66 !important;
-  color: #00FF66 !important;
+  border-color: #00CC55 !important;
+  color: #00CC55 !important;
   background-color: transparent !important;
-  box-shadow: 0 0 8px rgba(0, 255, 102, 0.25) !important;
+  box-shadow: 0 0 8px rgba(0, 204, 85, 0.25) !important;
 }
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-btn:hover {
-  background-color: #00FF66 !important;
+  background-color: #00CC55 !important;
   color: #0A0A0F !important;
-  box-shadow: 0 0 15px rgba(0, 255, 102, 0.5) !important;
+  box-shadow: 0 0 15px rgba(0, 204, 85, 0.5) !important;
 }
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-dropdown-trigger svg {
-  fill: #00FF66 !important;
-  stroke: #00FF66 !important;
+  fill: #00CC55 !important;
+  stroke: #00CC55 !important;
 }
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-btn[style*="color: gray"] {
-  color: #00FF66 !important;
+  color: #00CC55 !important;
 }
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .custom-scroll::-webkit-scrollbar-thumb {
-  background: #00FF66;
+  background: #00CC55;
 }
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .custom-scroll::-webkit-scrollbar-thumb:hover {
-  background: #66FF99;
+  background: #33DD88;
 }
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"]:hover ~ .ant-tooltip .ant-tooltip-inner,
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
-  background-color: #00FF66 !important;
+  background-color: #00CC55 !important;
   color: #0A0A0F !important;
-  border: 2px solid #66FF99 !important;
-  box-shadow: 0 0 10px rgba(0, 255, 102, 0.5) !important;
+  border: 2px solid #33DD88 !important;
+  box-shadow: 0 0 10px rgba(0, 204, 85, 0.5) !important;
 }
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
 a[href="/characters/DumbGirlBots/the-silent-girl-in-the-woods-426830a0b6f6"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
-  border-top-color: #00FF66 !important;
+  border-top-color: #00CC55 !important;
 }
+
 
