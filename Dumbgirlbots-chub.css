@@ -189,6 +189,26 @@ a:hover {
 }
 
 /* ============================================
+   GLOBAL TOOLTIP OVERRIDE – GLOWING WHITE
+   ============================================ */
+
+/* Tooltip inner */
+body .ant-tooltip .ant-tooltip-inner {
+    background-color: var(--text-light) !important; /* bright text/light background */
+    color: var(--bg-dark) !important; /* text on tooltip is dark for contrast */
+    border: 2px solid var(--accent-blue) !important; /* cyan border to match theme */
+    box-shadow: 0 0 12px var(--glow-blue), 0 0 20px var(--text-light) !important; /* soft white glow */
+    font-size: 0.85rem !important;
+    border-radius: 4px !important;
+}
+
+/* Tooltip arrow */
+body .ant-tooltip .ant-tooltip-arrow {
+    border-top-color: var(--text-light) !important; /* arrow matches tooltip bg */
+    filter: drop-shadow(0 0 8px var(--glow-blue)) !important; /* subtle glow on arrow */
+}
+
+/* ============================================
    CIEL CARD OVERRIDE – PINK CYBERPUNK (FULL)
    ============================================ */
 
