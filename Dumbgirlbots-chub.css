@@ -311,62 +311,6 @@ body .ant-tooltip .ant-tooltip-arrow {
 }
 
 /* ============================================
-   PAGINATION – CYBERPUNK GLOW
-   ============================================ */
-.ant-pagination {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background: var(--bg-light) !important;
-  border: 2px solid var(--accent-white) !important;
-  border-radius: 12px !important;
-  box-shadow: 0 0 20px var(--glow-white) !important;
-  padding: 6px 12px !important;
-  list-style: none;
-}
-
-/* Pagination links */
-.ant-pagination-item a,
-.ant-pagination-item {
-  color: var(--accent-white) !important;
-  border: 1px solid var(--accent-white) !important;
-  border-radius: 6px !important;
-  padding: 4px 8px !important;
-  transition: all 0.3s ease !important;
-  box-shadow: 0 0 8px var(--glow-white) !important;
-  background: var(--bg-dark) !important;
-}
-
-/* Hover/focus state for pagination items */
-.ant-pagination-item a:hover,
-.ant-pagination-item:hover {
-  color: var(--text-light) !important;
-  border-color: var(--glow-white) !important;
-  box-shadow: 0 0 15px var(--glow-white) !important;
-}
-
-/* Active page */
-.ant-pagination-item-active {
-  background: var(--accent-white) !important;
-  color: var(--bg-dark) !important;
-  box-shadow: 0 0 15px var(--glow-white) !important;
-  border-color: var(--glow-white) !important;
-}
-
-/* Disabled arrows */
-.ant-pagination-disabled .ant-pagination-item-link {
-  color: var(--text-muted) !important;
-  border-color: var(--border-dark) !important;
-  box-shadow: none !important;
-}
-
-/* Enabled arrow hover */
-.ant-pagination-item-link:hover {
-  color: var(--text-light) !important;
-  box-shadow: 0 0 15px var(--glow-white) !important;
-}
-
-/* ============================================
    CIEL CARD OVERRIDE – PINK CYBERPUNK (FULL)
    ============================================ */
 
