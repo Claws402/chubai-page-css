@@ -227,56 +227,35 @@ body .ant-tooltip .ant-tooltip-arrow {
 }
 
 /* ============================================
-   TABS – WHITE CYBERPUNK GLOW
+   TABS BAR – CYBERPUNK GLOW
    ============================================ */
 .ant-tabs-nav {
   background: var(--bg-light) !important;
-  border-bottom: 2px solid var(--accent-white) !important;
-  box-shadow: 0 0 15px var(--shadow-soft) !important;
-  border-radius: 8px 8px 0 0;
-}
-
-.ant-tabs-tab {
+  border: 2px solid var(--accent-white) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 0 20px var(--glow-white) !important;
+  padding: 4px 8px !important;
   position: relative;
+  margin-bottom: 20px;
 }
 
-.ant-tabs-tab-btn {
-  color: var(--accent-white) !important;
-  transition: all 0.3s ease !important;
-}
-
-.ant-tabs-tab-btn:hover {
-  color: var(--text-light) !important;
-  text-shadow: 0 0 6px var(--glow-white), 0 0 12px var(--text-light);
-}
-
-.ant-tabs-tab-active .ant-tabs-tab-btn {
+/* Tabs themselves – glowing underline for active tab */
+.ant-tabs-tab-active {
   border-bottom: 2px solid var(--accent-white) !important;
-  box-shadow: 0 0 12px var(--glow-white) !important;
-  color: var(--accent-white) !important;
-  text-shadow: 0 0 6px var(--glow-white), 0 0 12px var(--text-light);
+  box-shadow: 0 0 8px var(--glow-white) inset !important;
+}
+
+/* Glow effect on hover for other tabs */
+.ant-tabs-tab:hover {
+  box-shadow: 0 0 12px var(--glow-white) inset !important;
 }
 
 /* Ink bar glow */
 .ant-tabs-ink-bar {
   background: var(--accent-white) !important;
-  box-shadow: 0 0 10px var(--glow-white) !important;
-  height: 2px !important;
+  box-shadow: 0 0 12px var(--glow-white) !important;
 }
 
-/* Optional: More button */
-.ant-tabs-nav-more {
-  color: var(--accent-white) !important;
-  border: 1px solid var(--accent-white) !important;
-  background: transparent !important;
-  box-shadow: 0 0 8px var(--shadow-soft) !important;
-}
-
-.ant-tabs-nav-more:hover {
-  box-shadow: 0 0 15px var(--glow-white) !important;
-  border-color: var(--glow-white) !important;
-  color: var(--text-light) !important;
-}
 
 /* ============================================
    CIEL CARD OVERRIDE – PINK CYBERPUNK (FULL)
