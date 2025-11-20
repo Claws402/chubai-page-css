@@ -367,43 +367,6 @@ body .ant-tooltip .ant-tooltip-arrow {
 }
 
 /* ============================================
-   TAB BAR – CYBERPUNK GLOW
-   ============================================ */
-
-<style>
-/* Side Menu Neon/Dark Theme */
-.ant-menu-root {
-    background: linear-gradient(135deg, #1a001a, #330033) !important;
-    border-right: 2px solid #bb33ff !important;
-    color: #f0e6ff !important;
-}
-.ant-menu-item, .ant-menu-submenu-title {
-    background-color: transparent !important;
-    color: #f0e6ff !important;
-    transition: all 0.2s ease;
-}
-.ant-menu-item:hover, .ant-menu-submenu-title:hover {
-    background-color: rgba(187, 51, 255, 0.2) !important;
-    color: #ffffff !important;
-}
-.ant-menu-item-active, .ant-menu-submenu-open {
-    background-color: rgba(187, 51, 255, 0.4) !important;
-    color: #ffffff !important;
-}
-.ant-menu-item a, .ant-menu-submenu-title a {
-    color: inherit !important;
-    text-decoration: none !important;
-}
-.ant-menu-item-icon svg, .ant-menu-submenu-title svg {
-    fill: #bb33ff !important;
-}
-.ant-menu-submenu-arrow::after {
-    border-color: #bb33ff !important;
-}
-</style>
-
-
-/* ============================================
    CIEL CARD OVERRIDE – PINK CYBERPUNK (FULL)
    ============================================ */
 
