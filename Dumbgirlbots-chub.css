@@ -1062,3 +1062,148 @@ a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"]:hover ~ .a
   box-shadow: 0 0 10px rgba(136,136,136,0.35) !important;
 }
 
+/* ============================================
+   SAI CARD OVERRIDE – FIERY ORANGE CYBERPUNK (FULL)
+   ============================================ */
+
+/* Card border & shadow */
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .ant-card {
+  border-color: #ff6600 !important;
+  box-shadow: 0 0 15px rgba(255, 102, 0, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(255, 102, 0, 0.5) !important;
+}
+
+/* Tags */
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .ant-tag {
+  border-color: #ff6600 !important;
+  color: #ff6600 !important;
+}
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .ant-tag:hover {
+  border-color: #ff9933 !important;
+  box-shadow: 0 0 15px rgba(255, 102, 0, 0.5) !important;
+}
+
+/* Quote & link text */
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] a,
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .quote-color {
+  color: #ff6600 !important;
+}
+
+/* SVG icons anywhere in card */
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] svg,
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .anticon {
+  stroke: #ff6600 !important;
+  fill: #ff6600 !important;
+}
+
+/* Ribbon stats at bottom */
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .fake-ribbon {
+  background: rgba(255, 102, 0, 0.2) !important;
+  border: 2px solid #ff6600 !important;
+  color: #ff6600 !important;
+}
+
+/* Buttons inside card */
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .ant-btn {
+  border-color: #ff6600 !important;
+  color: #ff6600 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(255, 102, 0, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .ant-btn:hover {
+  background-color: #ff6600 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(255, 102, 0, 0.5) !important;
+}
+
+/* “More” dropdown button icon */
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .ant-dropdown-trigger svg {
+  fill: #ff6600 !important;
+  stroke: #ff6600 !important;
+}
+
+/* Force inline gray text to fiery orange */
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .ant-btn[style*="color: gray"] {
+  color: #ff6600 !important;
+}
+
+/* Horizontal scrollbar for tags */
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .custom-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .custom-scroll::-webkit-scrollbar-track {
+  background: #111122;
+  border-radius: 4px;
+}
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #ff6600;
+  border-radius: 4px;
+}
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #ff9933;
+}
+
+/* ALL dropdown menus (portal-based & hover-triggered) */
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .ant-dropdown-menu,
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .ant-dropdown-menu-item,
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .ant-dropdown-menu-item .ant-btn {
+  background: rgba(255, 102, 0, 0.95) !important;
+  border: 2px solid #ff6600 !important;
+  color: #ffe6cc !important;
+}
+
+/* Dropdown menu item hover */
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .ant-dropdown-menu-item:hover {
+  background: rgba(255, 153, 51, 0.8) !important;
+  color: #0A0A0F !important;
+}
+
+/* Dropdown buttons inside menu hover */
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .ant-dropdown-menu-item .ant-btn:hover {
+  color: #ff9933 !important;
+}
+
+/* Dropdown portal handling (covers hover-only and dynamically injected) */
+body > .ant-dropdown {
+  background: rgba(255, 102, 0, 0.95) !important;
+  border: 2px solid #ff6600 !important;
+  color: #ffe6cc !important;
+}
+body > .ant-dropdown .ant-dropdown-menu {
+  background: rgba(255, 102, 0, 0.95) !important;
+  border: 2px solid #ff6600 !important;
+  color: #ffe6cc !important;
+}
+body > .ant-dropdown .ant-dropdown-menu-item {
+  color: #ffe6cc !important;
+}
+body > .ant-dropdown .ant-dropdown-menu-item:hover {
+  background: rgba(255, 153, 51, 0.8) !important;
+  color: #0A0A0F !important;
+}
+body > .ant-dropdown .ant-dropdown-menu-item .ant-btn {
+  color: #ffe6cc !important;
+}
+body > .ant-dropdown .ant-dropdown-menu-item .ant-btn:hover {
+  color: #ff9933 !important;
+}
+
+/* ============================================
+   SAI TOOLTIP OVERRIDE – FIERY ORANGE
+   ============================================ */
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #ff6600 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #ff9933 !important;
+  box-shadow: 0 0 10px rgba(255, 102, 0, 0.5) !important;
+  font-size: 0.85rem !important;
+  border-radius: 4px !important;
+}
+
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #ff6600 !important;
+}
