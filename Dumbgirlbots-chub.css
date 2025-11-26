@@ -257,6 +257,148 @@ body .ant-tooltip .ant-tooltip-arrow {
 }
 
 /* ============================================
+   J&D CARD OVERRIDE – BLUSH ROSE GLOW (FULL)
+   ============================================ */
+
+/* Card border & shadow */
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-card {
+  border-color: #e9a4b8 !important;
+  box-shadow: 0 0 15px rgba(233, 164, 184, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(233, 164, 184, 0.5) !important;
+}
+
+/* Tags */
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-tag {
+  border-color: #e9a4b8 !important;
+  color: #e9a4b8 !important;
+}
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-tag:hover {
+  border-color: #f5c7d6 !important;
+  box-shadow: 0 0 15px rgba(233, 164, 184, 0.5) !important;
+}
+
+/* Quote & link text */
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] a,
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .quote-color {
+  color: #e9a4b8 !important;
+}
+
+/* SVG icons anywhere in card */
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] svg,
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .anticon {
+  stroke: #e9a4b8 !important;
+  fill: #e9a4b8 !important;
+}
+
+/* Ribbon stats at bottom */
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .fake-ribbon {
+  background: rgba(233, 164, 184, 0.2) !important;
+  border: 2px solid #e9a4b8 !important;
+  color: #e9a4b8 !important;
+}
+
+/* Buttons inside card */
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-btn {
+  border-color: #e9a4b8 !important;
+  color: #e9a4b8 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(233, 164, 184, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-btn:hover {
+  background-color: #e9a4b8 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(233, 164, 184, 0.5) !important;
+}
+
+/* More dropdown button icon */
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-dropdown-trigger svg {
+  fill: #e9a4b8 !important;
+  stroke: #e9a4b8 !important;
+}
+
+/* Force inline gray text to rose */
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-btn[style*="color: gray"] {
+  color: #e9a4b8 !important;
+}
+
+/* Horizontal scrollbar for tags */
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .custom-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .custom-scroll::-webkit-scrollbar-track {
+  background: #111122;
+  border-radius: 4px;
+}
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #e9a4b8;
+  border-radius: 4px;
+}
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #f5c7d6;
+}
+
+/* ALL dropdown menus */
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-dropdown-menu,
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-dropdown-menu-item,
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-dropdown-menu-item .ant-btn {
+  background: rgba(233, 164, 184, 0.95) !important;
+  border: 2px solid #e9a4b8 !important;
+  color: #fff4f8 !important;
+}
+
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-dropdown-menu-item:hover {
+  background: rgba(245, 199, 214, 0.8) !important;
+  color: #0A0A0F !important;
+}
+
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-dropdown-menu-item .ant-btn:hover {
+  color: #f5c7d6 !important;
+}
+
+/* Dropdown portal */
+body > .ant-dropdown {
+  background: rgba(233, 164, 184, 0.95) !important;
+  border: 2px solid #e9a4b8 !important;
+  color: #fff4f8 !important;
+}
+body > .ant-dropdown .ant-dropdown-menu {
+  background: rgba(233, 164, 184, 0.95) !important;
+  border: 2px solid #e9a4b8 !important;
+}
+body > .ant-dropdown .ant-dropdown-menu-item {
+  color: #fff4f8 !important;
+}
+body > .ant-dropdown .ant-dropdown-menu-item:hover {
+  background: rgba(245, 199, 214, 0.8) !important;
+}
+body > .ant-dropdown .ant-dropdown-menu-item .ant-btn {
+  color: #fff4f8 !important;
+}
+body > .ant-dropdown .ant-dropdown-menu-item .ant-btn:hover {
+  color: #f5c7d6 !important;
+}
+
+/* ============================================
+   J&D TOOLTIP OVERRIDE – BLUSH ROSE GLOW
+   ============================================ */
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #e9a4b8 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #f5c7d6 !important;
+  box-shadow: 0 0 10px rgba(233, 164, 184, 0.5) !important;
+  font-size: 0.85rem !important;
+  border-radius: 4px !important;
+}
+
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #e9a4b8 !important;
+}
+
+/* ============================================
    CIEL CARD OVERRIDE – PINK CYBERPUNK (FULL)
    ============================================ */
 
