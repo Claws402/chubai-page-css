@@ -257,6 +257,279 @@ body .ant-tooltip .ant-tooltip-arrow {
 }
 
 /* ============================================
+   NIKO CARD OVERRIDE – BURNT ORANGE
+   ============================================ */
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] .ant-card {
+  border-color: #CC5500 !important;
+  box-shadow: 0 0 15px rgba(204, 85, 0, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(204, 85, 0, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] .ant-tag {
+  border-color: #CC5500 !important;
+  color: #CC5500 !important;
+}
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] .ant-tag:hover {
+  border-color: #E0691A !important;
+  box-shadow: 0 0 15px rgba(204, 85, 0, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] a,
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] .quote-color {
+  color: #CC5500 !important;
+}
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] svg,
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] .anticon {
+  stroke: #CC5500 !important;
+  fill: #CC5500 !important;
+}
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] .fake-ribbon {
+  background: rgba(204, 85, 0, 0.2) !important;
+  border: 2px solid #CC5500 !important;
+  color: #CC5500 !important;
+}
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] .ant-btn {
+  border-color: #CC5500 !important;
+  color: #CC5500 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(204, 85, 0, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] .ant-btn:hover {
+  background-color: #CC5500 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(204, 85, 0, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] .ant-dropdown-trigger svg {
+  fill: #CC5500 !important;
+  stroke: #CC5500 !important;
+}
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] .ant-btn[style*="color: gray"] {
+  color: #CC5500 !important;
+}
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #CC5500;
+}
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #E0691A;
+}
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #CC5500 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #E0691A !important;
+  box-shadow: 0 0 10px rgba(204, 85, 0, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #CC5500 !important;
+}
+
+/* ============================================
+   MAE & KYE CARD OVERRIDE – STORM GREY
+   ============================================ */
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] .ant-card {
+  border-color: #6B6F72 !important;
+  box-shadow: 0 0 15px rgba(107, 111, 114, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(107, 111, 114, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] .ant-tag {
+  border-color: #6B6F72 !important;
+  color: #6B6F72 !important;
+}
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] .ant-tag:hover {
+  border-color: #8A8E91 !important;
+  box-shadow: 0 0 15px rgba(107, 111, 114, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] a,
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] .quote-color {
+  color: #6B6F72 !important;
+}
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] svg,
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] .anticon {
+  stroke: #6B6F72 !important;
+  fill: #6B6F72 !important;
+}
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] .fake-ribbon {
+  background: rgba(107, 111, 114, 0.2) !important;
+  border: 2px solid #6B6F72 !important;
+  color: #6B6F72 !important;
+}
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] .ant-btn {
+  border-color: #6B6F72 !important;
+  color: #6B6F72 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(107, 111, 114, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] .ant-btn:hover {
+  background-color: #6B6F72 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(107, 111, 114, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] .ant-dropdown-trigger svg {
+  fill: #6B6F72 !important;
+  stroke: #6B6F72 !important;
+}
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] .ant-btn[style*="color: gray"] {
+  color: #6B6F72 !important;
+}
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #6B6F72;
+}
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #8A8E91;
+}
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #6B6F72 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #8A8E91 !important;
+  box-shadow: 0 0 10px rgba(107, 111, 114, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/mae-kye-two-halves-of-a-whole-845ca14498b9"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #6B6F72 !important;
+}
+
+/* ============================================
+   MIRI CARD OVERRIDE – DIVINE GOLD
+   ============================================ */
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] .ant-card {
+  border-color: #F8D568 !important;
+  box-shadow: 0 0 15px rgba(248, 213, 104, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(248, 213, 104, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] .ant-tag {
+  border-color: #F8D568 !important;
+  color: #F8D568 !important;
+}
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] .ant-tag:hover {
+  border-color: #FFE18B !important;
+  box-shadow: 0 0 15px rgba(248, 213, 104, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] a,
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] .quote-color {
+  color: #F8D568 !important;
+}
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] svg,
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] .anticon {
+  stroke: #F8D568 !important;
+  fill: #F8D568 !important;
+}
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] .fake-ribbon {
+  background: rgba(248, 213, 104, 0.2) !important;
+  border: 2px solid #F8D568 !important;
+  color: #F8D568 !important;
+}
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] .ant-btn {
+  border-color: #F8D568 !important;
+  color: #F8D568 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(248, 213, 104, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] .ant-btn:hover {
+  background-color: #F8D568 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(248, 213, 104, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] .ant-dropdown-trigger svg {
+  fill: #F8D568 !important;
+  stroke: #F8D568 !important;
+}
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] .ant-btn[style*="color: gray"] {
+  color: #F8D568 !important;
+}
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #F8D568;
+}
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #FFE18B;
+}
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #F8D568 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #FFE18B !important;
+  box-shadow: 0 0 10px rgba(248, 213, 104, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/miri-the-goddess-of-stupidity-edc4ef6c9d33"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #F8D568 !important;
+}
+
+/* ============================================
+   ASHELYNN CARD OVERRIDE – DARK CRIMSON
+   ============================================ */
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] .ant-card {
+  border-color: #8B0000 !important;
+  box-shadow: 0 0 15px rgba(139, 0, 0, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(139, 0, 0, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] .ant-tag {
+  border-color: #8B0000 !important;
+  color: #8B0000 !important;
+}
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] .ant-tag:hover {
+  border-color: #A11212 !important;
+  box-shadow: 0 0 15px rgba(139, 0, 0, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] a,
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] .quote-color {
+  color: #8B0000 !important;
+}
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] svg,
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] .anticon {
+  stroke: #8B0000 !important;
+  fill: #8B0000 !important;
+}
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] .fake-ribbon {
+  background: rgba(139, 0, 0, 0.2) !important;
+  border: 2px solid #8B0000 !important;
+  color: #8B0000 !important;
+}
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] .ant-btn {
+  border-color: #8B0000 !important;
+  color: #8B0000 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(139, 0, 0, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] .ant-btn:hover {
+  background-color: #8B0000 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(139, 0, 0, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] .ant-dropdown-trigger svg {
+  fill: #8B0000 !important;
+  stroke: #8B0000 !important;
+}
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] .ant-btn[style*="color: gray"] {
+  color: #8B0000 !important;
+}
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #8B0000;
+}
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #A11212;
+}
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #8B0000 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #A11212 !important;
+  box-shadow: 0 0 10px rgba(139, 0, 0, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/ashelynn-the-royal-slave-c71af4107891"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #8B0000 !important;
+}
+
+
+/* ============================================
    J&D CARD OVERRIDE – BLUSH ROSE GLOW (FULL)
    ============================================ */
 
