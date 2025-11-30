@@ -227,33 +227,43 @@ body .ant-tooltip .ant-tooltip-arrow {
 }
 
 /* ============================================
-   TABS BAR – CYBERPUNK GLOW
-   ============================================ */
+TABS BAR – CYBERPUNK GLOW (ENHANCED SELECTION BOX)
+============================================ */
 .ant-tabs-nav {
-  background: var(--bg-light) !important;
-  border: 2px solid var(--accent-white) !important;
-  border-radius: 12px !important;
-  box-shadow: 0 0 20px var(--glow-white) !important;
-  padding: 4px 8px !important;
-  position: relative;
-  margin-bottom: 20px;
+background: var(--bg-light) !important;
+border: 2px solid var(--accent-white) !important;
+border-radius: 12px !important;
+box-shadow: 0 0 20px var(--glow-white) !important;
+padding: 6px 10px !important;
+position: relative;
+margin-bottom: 20px;
 }
 
-/* Tabs themselves – glowing underline for active tab */
+/* Selected Tab – frosted-glass style block /
 .ant-tabs-tab-active {
-  border-bottom: 2px solid var(--accent-white) !important;
-  box-shadow: 0 0 8px var(--glow-white) inset !important;
+background: rgba(255, 255, 255, 0.12) !important; / Frosted look */
+backdrop-filter: blur(6px) !important;
+border: 1px solid var(--accent-white) !important;
+border-radius: 10px !important;
+padding: 6px 14px !important;
+margin: 0 4px !important;
+box-shadow: 0 0 12px var(--glow-white) inset !important;
+transition: all 0.25s ease-in-out !important;
 }
 
-/* Glow effect on hover for other tabs */
+/* Hover tabs */
 .ant-tabs-tab:hover {
-  box-shadow: 0 0 12px var(--glow-white) inset !important;
+background: rgba(255, 255, 255, 0.06) !important;
+backdrop-filter: blur(4px) !important;
+border-radius: 10px !important;
+padding: 6px 14px !important;
+box-shadow: 0 0 12px var(--glow-white) inset !important;
 }
 
 /* Ink bar glow */
 .ant-tabs-ink-bar {
-  background: var(--accent-white) !important;
-  box-shadow: 0 0 12px var(--glow-white) !important;
+background: var(--accent-white) !important;
+box-shadow: 0 0 12px var(--glow-white) !important;
 }
 
 /* ============================================
