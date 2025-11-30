@@ -1,4 +1,10 @@
 /* ====================================================
+   TOP BAR
+   ==================================================== */
+
+.ant-menu-root {backdrop-filter: blur(14px) saturate(180%) brightness(95%);background-color: rgba(0,0,0,0.3) !important;color: #ffffff !important;box-shadow: 0 0 20px rgba(0,255,255,0.4),0 0 40px rgba(255,0,255,0.2);} .ant-menu-root a,.ant-menu-root span,.ant-menu-root .ant-menu-title-content {color: #ffffff !important;text-shadow: 0 0 4px rgba(0,255,255,0.5),0 0 6px rgba(255,0,255,0.3);} .ant-menu-root li {border-radius: 12px;transition: background 0.3s ease, box-shadow 0.3s ease;} .ant-menu-root li:hover {background-color: rgba(255,255,255,0.08) !important;box-shadow: 0 0 12px rgba(0,255,255,0.5),0 0 16px rgba(255,0,255,0.3);}
+
+/* ====================================================
    CARD TITLES
    ==================================================== */
 
