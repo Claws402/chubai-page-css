@@ -2,7 +2,67 @@
    TOP BAR
    ==================================================== */
 
-.ant-menu-root {backdrop-filter: blur(14px) saturate(180%) brightness(95%);background-color: rgba(0,0,0,0.3) !important;color: #ffffff !important;box-shadow: 0 0 20px rgba(0,255,255,0.4),0 0 40px rgba(255,0,255,0.2);} .ant-menu-root a,.ant-menu-root span,.ant-menu-root .ant-menu-title-content {color: #ffffff !important;text-shadow: 0 0 4px rgba(0,255,255,0.5),0 0 6px rgba(255,0,255,0.3);} .ant-menu-root li {border-radius: 12px;transition: background 0.3s ease, box-shadow 0.3s ease;} .ant-menu-root li:hover {background-color: rgba(255,255,255,0.08) !important;box-shadow: 0 0 12px rgba(0,255,255,0.5),0 0 16px rgba(255,0,255,0.3);}
+/* ============================================
+   MAIN MENU – FROSTED GLASS + NEON GLOW
+   ============================================ */
+.ant-menu-root {
+  background-color: rgba(0,0,0,0.25) !important; /* translucent black */
+  backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 20px rgba(0,255,255,0.4), 0 0 40px rgba(255,0,255,0.2) !important;
+  padding-left: 1rem !important;
+  padding-right: 1.5rem !important;
+}
+
+.ant-menu-root .ant-menu-item,
+.ant-menu-root .ant-menu-submenu-title {
+  color: #ffffff !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.ant-menu-root .ant-menu-item:hover,
+.ant-menu-root .ant-menu-submenu-title:hover {
+  color: #00ffff !important;
+  text-shadow: 0 0 8px #00ffff, 0 0 16px #ff00ff;
+}
+
+.ant-menu-root .ant-menu-item-active,
+.ant-menu-root .ant-menu-item-selected {
+  color: #00ffff !important;
+  text-shadow: 0 0 8px #00ffff, 0 0 16px #ff00ff;
+  background-color: rgba(255,255,255,0.05) !important; /* subtle highlight */
+}
+
+.ant-menu-submenu-title .ant-menu-submenu-arrow {
+  color: #ffffff !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.ant-menu-submenu-title:hover .ant-menu-submenu-arrow {
+  color: #00ffff !important;
+  text-shadow: 0 0 6px #00ffff, 0 0 12px #ff00ff;
+}
+
+/* Make the search box translucent with blur and white text */
+.ant-select.ant-select-outlined .ant-select-selector {
+  background-color: rgba(0,0,0,0.25) !important;
+  backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+/* Search placeholder */
+.ant-select-selection-placeholder {
+  color: rgba(255,255,255,0.6) !important;
+}
+
+/* Notifications bell & avatar items */
+.ant-menu-item.notifications,
+.ant-menu-item .ant-avatar {
+  color: #ffffff !important;
+  filter: drop-shadow(0 0 4px #00ffff);
+}
+
 
 /* ====================================================
    CARD TITLES
