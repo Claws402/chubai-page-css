@@ -1,68 +1,52 @@
-/* ====================================================
-   TOP BAR
-   ==================================================== */
-
 /* ============================================
    MAIN MENU – FROSTED GLASS + NEON GLOW
    ============================================ */
-.ant-menu-root {
-  background-color: rgba(0,0,0,0.25) !important; /* translucent black */
+
+/* Header: translucent frosted glass */
+.ant-layout-header {
+  background-color: rgba(0, 0, 0, 0.25) !important;
   backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
-  color: #ffffff !important;
-  box-shadow: 0 0 20px rgba(0,255,255,0.4), 0 0 40px rgba(255,0,255,0.2) !important;
-  padding-left: 1rem !important;
-  padding-right: 1.5rem !important;
+  -webkit-backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
+  z-index: 999 !important;
+  max-height: 64px !important;
+  overflow: hidden !important;
+  width: 100vw !important;
+  position: fixed !important;
+  top: 0 !important;
+  padding: 0 !important;
 }
 
+/* Menu: white text and glowing effect */
+.ant-menu-root,
 .ant-menu-root .ant-menu-item,
 .ant-menu-root .ant-menu-submenu-title {
+  background-color: transparent !important;
   color: #ffffff !important;
-  transition: all 0.2s ease-in-out;
+  text-shadow: 0 0 6px #00ffff, 0 0 10px #00ffff, 0 0 18px #00ffff !important;
+  font-weight: 500 !important;
 }
 
+/* Menu hover/active glow */
 .ant-menu-root .ant-menu-item:hover,
+.ant-menu-root .ant-menu-item-active,
 .ant-menu-root .ant-menu-submenu-title:hover {
   color: #00ffff !important;
-  text-shadow: 0 0 8px #00ffff, 0 0 16px #ff00ff;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff !important;
 }
 
-.ant-menu-root .ant-menu-item-active,
-.ant-menu-root .ant-menu-item-selected {
-  color: #00ffff !important;
-  text-shadow: 0 0 8px #00ffff, 0 0 16px #ff00ff;
-  background-color: rgba(255,255,255,0.05) !important; /* subtle highlight */
-}
-
-.ant-menu-submenu-title .ant-menu-submenu-arrow {
-  color: #ffffff !important;
-  transition: all 0.2s ease-in-out;
-}
-
-.ant-menu-submenu-title:hover .ant-menu-submenu-arrow {
-  color: #00ffff !important;
-  text-shadow: 0 0 6px #00ffff, 0 0 12px #ff00ff;
-}
-
-/* Make the search box translucent with blur and white text */
-.ant-select.ant-select-outlined .ant-select-selector {
-  background-color: rgba(0,0,0,0.25) !important;
+/* Search box inside header: translucent */
+.ant-select-selector {
+  background-color: rgba(0, 0, 0, 0.25) !important;
   backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
+  -webkit-backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
   color: #ffffff !important;
-  border-color: #ffffff !important;
 }
 
-/* Search placeholder */
-.ant-select-selection-placeholder {
-  color: rgba(255,255,255,0.6) !important;
+/* Icons inside menu: bright white/glow */
+.ant-menu-root svg,
+.ant-menu-root .ant-avatar img {
+  filter: drop-shadow(0 0 6px #00ffff) !important;
 }
-
-/* Notifications bell & avatar items */
-.ant-menu-item.notifications,
-.ant-menu-item .ant-avatar {
-  color: #ffffff !important;
-  filter: drop-shadow(0 0 4px #00ffff);
-}
-
 
 /* ====================================================
    CARD TITLES
