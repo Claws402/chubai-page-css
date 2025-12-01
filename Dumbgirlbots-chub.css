@@ -1,7 +1,3 @@
-/* ============================================
-   BG IMG
-   ============================================ */
-
 /* Fullscreen background video for Chub */
 .bg-video-container {
   position: fixed !important;
@@ -10,7 +6,8 @@
   width: 100vw !important;
   height: 100vh !important;
   overflow: hidden !important;
-  z-index: -1 !important;
+  z-index: -999 !important; /* behind all content */
+  pointer-events: none !important; /* clicks go through */
 }
 
 .bg-video-container video {
@@ -23,15 +20,7 @@
   height: auto !important;
   transform: translate(-50%, -50%) !important;
   object-fit: cover !important;
-  pointer-events: none !important;
 }
-
-/* Insert the video element using Chub's custom HTML or JS injection */
-.bg-video-container video source {
-  src: "https://files.catbox.moe/xxdt89.webm" !important; /* your hosted WebM */
-  type: "video/webm" !important;
-}
-
 
 /* ============================================
    COLOR PALETTE – WHITE CYBERPUNK
