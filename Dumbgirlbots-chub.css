@@ -1,4 +1,22 @@
 /* ============================================
+   VID BACKGROUND
+   ============================================ */
+
+.bg-video {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  object-fit: cover !important;
+  z-index: 0 !important;
+  border-radius: 10px !important;
+  filter: brightness(0.75) !important;
+  pointer-events: none !important;
+}
+
+
+/* ============================================
    COLOR PALETTE – WHITE CYBERPUNK
    ============================================ */
 :root {
