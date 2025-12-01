@@ -53,6 +53,19 @@
    SIDEBAR – FROSTED GLASS + VERTICAL MENU
    ============================================ */
 
+.avatar-box {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  backdrop-filter: blur(8px) saturate(180%);
+  -webkit-backdrop-filter: blur(8px) saturate(180%);
+  border: 1px solid rgba(255,255,255,0.3);
+  display: block;
+  margin: 0 auto;
+}
+
 .ant-layout-sider {
   background-color: rgba(0, 0, 0, 0.2) !important;
   backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
