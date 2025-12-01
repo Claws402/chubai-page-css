@@ -1,60 +1,5 @@
 /* ============================================
-   SIDE MENU – FROSTED GLASS + NEON GLOW
-   ============================================ */
-
-<aside class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-collapsed my-0 py-0 css-f6nzt4" style="width: 80px; position: fixed; top: 64px; bottom: 0px; z-index: 1; flex: 0 0 80px; max-width: 80px; min-width: 80px;">
-  <div class="ant-layout-sider-children">
-    <ul class="ant-menu ant-menu-root ant-menu-vertical ant-menu-dark ant-menu-inline-collapsed css-f6nzt4" role="menu" tabindex="0" data-menu-list="true" style="overflow: hidden auto; height: 90vh; position: sticky; width: 80px; transition: 0.3s, background; background-color: transparent; max-height: 90vh; top: 68px;">
-      
-      <li class="ant-menu-item ant-menu-item-only-child text-right" title="Expand" role="menuitem" tabindex="-1" aria-describedby=":r14:" style="background-color: transparent;" data-menu-id="rc-menu-uuid-53454-2-collapseable-sub-menu">
-        <span class="ant-menu-title-content">
-          <span role="img" aria-label="double-right" class="anticon anticon-double-right">
-            <svg viewBox="64 64 896 896" focusable="false" data-icon="double-right" width="1em" height="1em" fill="currentColor" aria-hidden="true">
-              <path d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 00188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 00492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"></path>
-            </svg>
-          </span>
-        </span>
-      </li>
-
-      <!-- Characters -->
-      <li class="ant-menu-submenu ant-menu-submenu-vertical" role="none">
-        <div role="menuitem" class="ant-menu-submenu-title" tabindex="-1" aria-expanded="false" aria-haspopup="true" data-menu-id="rc-menu-uuid-53454-2-side-chars-sub-menu" aria-controls="rc-menu-uuid-53454-2-side-chars-sub-menu-popup">
-          <a class="ant-menu-item-icon" href="/search">
-            <span role="img" aria-label="team" class="anticon anticon-team mr-1">
-              <svg viewBox="64 64 896 896" focusable="false" data-icon="team" width="1em" height="1em" fill="currentColor" aria-hidden="true">
-                <path d="M824.2 699.9a301.55 301.55 0 00-86.4-60.4C783.1 602.8 812 546.8 812 484c0-110.8-92.4-201.7-203.2-200-109.1 1.7-197 90.6-197 200 0 62.8 29 118.8 74.2 155.5a300.95 300.95 0 00-86.4 60.4C345 754.6 314 826.8 312 903.8a8 8 0 008 8.2h56c4.3 0 7.9-3.4 8-7.7 1.9-58 25.4-112.3 66.7-153.5A226.62 226.62 0 01612 684c60.9 0 118.2 23.7 161.3 66.8C814.5 792 838 846.3 840 904.3c.1 4.3 3.7 7.7 8 7.7h56a8 8 0 008-8.2c-2-77-33-149.2-87.8-203.9zM612 612c-34.2 0-66.4-13.3-90.5-37.5a126.86 126.86 0 01-37.5-91.8c.3-32.8 13.4-64.5 36.3-88 24-24.6 56.1-38.3 90.4-38.7 33.9-.3 66.8 12.9 91 36.6 24.8 24.3 38.4 56.8 38.4 91.4 0 34.2-13.3 66.3-37.5 90.5A127.3 127.3 0 01612 612z"></path>
-              </svg>
-            </span>
-          </a>
-          <span class="ant-menu-title-content">Characters</span>
-          <i class="ant-menu-submenu-arrow"></i>
-        </div>
-      </li>
-
-      <!-- Lorebooks -->
-      <li class="ant-menu-submenu ant-menu-submenu-vertical" role="none">
-        <div role="menuitem" class="ant-menu-submenu-title" tabindex="-1" aria-expanded="false" aria-haspopup="true" data-menu-id="rc-menu-uuid-53454-2-sub-side-lore-lore" aria-controls="rc-menu-uuid-53454-2-sub-side-lore-lore-popup">
-          <a class="ant-menu-item-icon" href="/lorebooks">
-            <span role="img" aria-label="database" class="anticon anticon-database mr-1">
-              <svg viewBox="64 64 896 896" focusable="false" data-icon="database" width="1em" height="1em" fill="currentColor" aria-hidden="true">
-                <path d="M832 64H192c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V96c0-17.7-14.3-32-32-32zm-600 72h560v208H232V136zm560 480H232V408h560v208zm0 272H232V680h560v208zM304 240a40 40 0 1080 0 40 40 0 10-80 0zm0 272a40 40 0 1080 0 40 40 0 10-80 0zm0 272a40 40 0 1080 0 40 40 0 10-80 0z"></path>
-              </svg>
-            </span>
-          </a>
-          <span class="ant-menu-title-content">Lorebooks</span>
-          <i class="ant-menu-submenu-arrow"></i>
-        </div>
-      </li>
-
-      <!-- Continue the same pattern for Chats, Presets, Stages, Favorites, Subscription, Leaderboard, Events, Profile, Blocks, Logout -->
-      
-    </ul>
-  </div>
-</aside>
-
-
-/* ============================================
-   MAIN MENU – FROSTED GLASS + NEON GLOW
+   MAIN MENU – FROSTED GLASS + CRISP WHITE SEARCH
    ============================================ */
 
 /* Header: translucent frosted glass */
@@ -71,13 +16,13 @@
   padding: 0 !important;
 }
 
-/* Menu: white text and glowing effect */
+/* Menu: white text and subtle glow */
 .ant-menu-root,
 .ant-menu-root .ant-menu-item,
 .ant-menu-root .ant-menu-submenu-title {
   background-color: transparent !important;
   color: #ffffff !important;
-  text-shadow: 0 0 6px #00ffff, 0 0 10px #00ffff, 0 0 18px #00ffff !important;
+  text-shadow: 0 0 2px #ffffff !important;
   font-weight: 500 !important;
 }
 
@@ -89,17 +34,59 @@
   text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff !important;
 }
 
-/* Search box inside header: translucent */
+/* Search box inside header: translucent + crisp white text */
 .ant-select-selector {
   background-color: rgba(0, 0, 0, 0.25) !important;
   backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
   -webkit-backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
   color: #ffffff !important;
+  text-shadow: 0 0 2px #ffffff !important;
 }
 
 /* Icons inside menu: bright white/glow */
 .ant-menu-root svg,
 .ant-menu-root .ant-avatar img {
+  filter: drop-shadow(0 0 6px #00ffff) !important;
+}
+
+/* ============================================
+   SIDEBAR – FROSTED GLASS + VERTICAL MENU
+   ============================================ */
+
+.ant-layout-sider {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
+  -webkit-backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
+  width: 80px !important;
+  position: fixed !important;
+  top: 64px !important;
+  bottom: 0 !important;
+  overflow-y: auto !important;
+  z-index: 1 !important;
+}
+
+/* Sidebar menu: vertical, white text, subtle glow */
+.ant-menu-vertical,
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-vertical .ant-menu-submenu-title {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  text-shadow: 0 0 2px #ffffff !important;
+  font-weight: 500 !important;
+  text-align: center !important;
+}
+
+/* Sidebar menu hover/active */
+.ant-menu-vertical .ant-menu-item:hover,
+.ant-menu-vertical .ant-menu-item-active,
+.ant-menu-vertical .ant-menu-submenu-title:hover {
+  color: #00ffff !important;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff !important;
+}
+
+/* Sidebar icons: glow effect */
+.ant-menu-vertical svg,
+.ant-menu-vertical .ant-avatar img {
   filter: drop-shadow(0 0 6px #00ffff) !important;
 }
 
