@@ -269,33 +269,73 @@ box-shadow: 0 0 12px var(--glow-white) !important;
 /* ============================================
    CHRISTINA CARD OVERRIDE – GLOW BLUE
    ============================================ */
-a[href="https://chub.ai/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-card {
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-card {
   border-color: #B6CEF4 !important;
   box-shadow: 0 0 15px rgba(182, 206, 244, 0.25) !important;
 }
-a[href="https://chub.ai/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-card:hover {
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-card:hover {
   box-shadow: 0 0 25px rgba(182, 206, 244, 0.5) !important;
 }
-a[href="https://chub.ai/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-tag {
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-tag {
   border-color: #B6CEF4 !important;
   color: #B6CEF4 !important;
 }
-a[href="https://chub.ai/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-tag:hover {
-  border-color: #9CC3F0 !important;
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-tag:hover {
+  border-color: #93B8F0 !important;
   box-shadow: 0 0 15px rgba(182, 206, 244, 0.5) !important;
 }
-a[href="https://chub.ai/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] a,
-a[href="https://chub.ai/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .quote-color {
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] a,
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .quote-color {
   color: #B6CEF4 !important;
 }
-a[href="https://chub.ai/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] svg,
-a[href="https://chub.ai/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .anticon {
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] svg,
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .anticon {
   stroke: #B6CEF4 !important;
   fill: #B6CEF4 !important;
 }
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .fake-ribbon {
+  background: rgba(182, 206, 244, 0.2) !important;
+  border: 2px solid #B6CEF4 !important;
+  color: #B6CEF4 !important;
+}
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-btn {
+  border-color: #B6CEF4 !important;
+  color: #B6CEF4 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(182, 206, 244, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-btn:hover {
+  background-color: #B6CEF4 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 25px rgba(182, 206, 244, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-dropdown-trigger svg {
+  fill: #B6CEF4 !important;
+  stroke: #B6CEF4 !important;
+}
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-btn[style*="color: gray"] {
+  color: #B6CEF4 !important;
+}
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #B6CEF4;
+}
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #93B8F0;
+}
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #B6CEF4 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #93B8F0 !important;
+  box-shadow: 0 0 25px rgba(182, 206, 244, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #B6CEF4 !important;
+}
 
 /* ============================================
-   ROSABELLE CARD OVERRIDE – DEEP BLUE
+   ROSABELLE CARD OVERRIDE – DARK BLUE
    ============================================ */
 a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .ant-card {
   border-color: #5B81CF !important;
@@ -309,7 +349,7 @@ a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"]
   color: #5B81CF !important;
 }
 a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .ant-tag:hover {
-  border-color: #4A6AB5 !important;
+  border-color: #4462A3 !important;
   box-shadow: 0 0 15px rgba(91, 129, 207, 0.5) !important;
 }
 a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] a,
@@ -321,34 +361,115 @@ a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"]
   stroke: #5B81CF !important;
   fill: #5B81CF !important;
 }
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .fake-ribbon {
+  background: rgba(91, 129, 207, 0.2) !important;
+  border: 2px solid #5B81CF !important;
+  color: #5B81CF !important;
+}
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .ant-btn {
+  border-color: #5B81CF !important;
+  color: #5B81CF !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(91, 129, 207, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .ant-btn:hover {
+  background-color: #5B81CF !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 25px rgba(91, 129, 207, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .ant-dropdown-trigger svg {
+  fill: #5B81CF !important;
+  stroke: #5B81CF !important;
+}
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .ant-btn[style*="color: gray"] {
+  color: #5B81CF !important;
+}
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #5B81CF;
+}
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #4462A3;
+}
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #5B81CF !important;
+  color: #0A0A0F !important;
+  border: 2px solid #4462A3 !important;
+  box-shadow: 0 0 25px rgba(91, 129, 207, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #5B81CF !important;
+}
 
 /* ============================================
-   LADY MORIAH CARD OVERRIDE – NAVY BLUE
+   LADY MORIAH CARD OVERRIDE – DEEP NAVY
    ============================================ */
-a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-42b6860f9756"] .ant-card {
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] .ant-card {
   border-color: #12275D !important;
   box-shadow: 0 0 15px rgba(18, 39, 93, 0.25) !important;
 }
-a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-42b6860f9756"] .ant-card:hover {
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] .ant-card:hover {
   box-shadow: 0 0 25px rgba(18, 39, 93, 0.5) !important;
 }
-a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-42b6860f9756"] .ant-tag {
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] .ant-tag {
   border-color: #12275D !important;
   color: #12275D !important;
 }
-a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-42b6860f9756"] .ant-tag:hover {
-  border-color: #0F1F4A !important;
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] .ant-tag:hover {
+  border-color: #0D1B44 !important;
   box-shadow: 0 0 15px rgba(18, 39, 93, 0.5) !important;
 }
-a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-42b6860f9756"] a,
-a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-42b6860f9756"] .quote-color {
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] a,
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] .quote-color {
   color: #12275D !important;
 }
-a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-42b6860f9756"] svg,
-a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-42b6860f9756"] .anticon {
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] svg,
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] .anticon {
   stroke: #12275D !important;
   fill: #12275D !important;
 }
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] .fake-ribbon {
+  background: rgba(18, 39, 93, 0.2) !important;
+  border: 2px solid #12275D !important;
+  color: #12275D !important;
+}
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] .ant-btn {
+  border-color: #12275D !important;
+  color: #12275D !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(18, 39, 93, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] .ant-btn:hover {
+  background-color: #12275D !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 25px rgba(18, 39, 93, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] .ant-dropdown-trigger svg {
+  fill: #12275D !important;
+  stroke: #12275D !important;
+}
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] .ant-btn[style*="color: gray"] {
+  color: #12275D !important;
+}
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #12275D;
+}
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #0D1B44;
+}
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #12275D !important;
+  color: #0A0A0F !important;
+  border: 2px solid #0D1B44 !important;
+  box-shadow: 0 0 25px rgba(18, 39, 93, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-5beb910fa321"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #12275D !important;
+}
+
 
 /* ============================================
    NIKO CARD OVERRIDE – BURNT ORANGE
