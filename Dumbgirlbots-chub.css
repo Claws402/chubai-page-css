@@ -267,6 +267,90 @@ box-shadow: 0 0 12px var(--glow-white) !important;
 }
 
 /* ============================================
+   CHRISTINA CARD OVERRIDE – GLOW BLUE
+   ============================================ */
+a[href="https://chub.ai/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-card {
+  border-color: #B6CEF4 !important;
+  box-shadow: 0 0 15px rgba(182, 206, 244, 0.25) !important;
+}
+a[href="https://chub.ai/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(182, 206, 244, 0.5) !important;
+}
+a[href="https://chub.ai/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-tag {
+  border-color: #B6CEF4 !important;
+  color: #B6CEF4 !important;
+}
+a[href="https://chub.ai/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-tag:hover {
+  border-color: #9CC3F0 !important;
+  box-shadow: 0 0 15px rgba(182, 206, 244, 0.5) !important;
+}
+a[href="https://chub.ai/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] a,
+a[href="https://chub.ai/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .quote-color {
+  color: #B6CEF4 !important;
+}
+a[href="https://chub.ai/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] svg,
+a[href="https://chub.ai/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .anticon {
+  stroke: #B6CEF4 !important;
+  fill: #B6CEF4 !important;
+}
+
+/* ============================================
+   ROSABELLE CARD OVERRIDE – DEEP BLUE
+   ============================================ */
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .ant-card {
+  border-color: #5B81CF !important;
+  box-shadow: 0 0 15px rgba(91, 129, 207, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(91, 129, 207, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .ant-tag {
+  border-color: #5B81CF !important;
+  color: #5B81CF !important;
+}
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .ant-tag:hover {
+  border-color: #4A6AB5 !important;
+  box-shadow: 0 0 15px rgba(91, 129, 207, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] a,
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .quote-color {
+  color: #5B81CF !important;
+}
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] svg,
+a[href="/characters/DumbGirlBots/rosabelle-the-discarded-daughter-d7498538804b"] .anticon {
+  stroke: #5B81CF !important;
+  fill: #5B81CF !important;
+}
+
+/* ============================================
+   LADY MORIAH CARD OVERRIDE – NAVY BLUE
+   ============================================ */
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-42b6860f9756"] .ant-card {
+  border-color: #12275D !important;
+  box-shadow: 0 0 15px rgba(18, 39, 93, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-42b6860f9756"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(18, 39, 93, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-42b6860f9756"] .ant-tag {
+  border-color: #12275D !important;
+  color: #12275D !important;
+}
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-42b6860f9756"] .ant-tag:hover {
+  border-color: #0F1F4A !important;
+  box-shadow: 0 0 15px rgba(18, 39, 93, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-42b6860f9756"] a,
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-42b6860f9756"] .quote-color {
+  color: #12275D !important;
+}
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-42b6860f9756"] svg,
+a[href="/characters/DumbGirlBots/lady-moriah-the-forsaken-wife-42b6860f9756"] .anticon {
+  stroke: #12275D !important;
+  fill: #12275D !important;
+}
+
+/* ============================================
    NIKO CARD OVERRIDE – BURNT ORANGE
    ============================================ */
 a[href="/characters/DumbGirlBots/niko-the-disgraced-mercenary-a900c5810b98"] .ant-card {
