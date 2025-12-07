@@ -1,0 +1,50 @@
+/* ============================================
+   JESSALYN & DARCY – PURPLE GLOW OVERRIDE
+   ============================================ */
+
+/* Target the main page via href */
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-card,
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-image-img {
+  border-color: #c187ff !important;
+  box-shadow: 0 0 15px rgba(193, 135, 255, 0.45) !important;
+  border-radius: 8px;
+}
+
+/* Hover effect for card and image */
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-card:hover,
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-image-img:hover {
+  box-shadow: 0 0 25px rgba(193, 135, 255, 0.65) !important;
+}
+
+/* Ribbon styling */
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-ribbon {
+  background: rgba(193, 135, 255, 0.2) !important;
+  border: 2px solid #c187ff !important;
+  color: #c187ff !important;
+}
+
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-ribbon:hover {
+  box-shadow: 0 0 20px rgba(193, 135, 255, 0.5) !important;
+  border-color: #a16fe0 !important;
+}
+
+/* Buttons */
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-btn {
+  border-color: #c187ff !important;
+  color: #c187ff !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(193, 135, 255, 0.25) !important;
+}
+
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-btn:hover {
+  background-color: #c187ff !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 25px rgba(193, 135, 255, 0.65) !important;
+}
+
+/* Specific buttons with icon adjustments */
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-btn svg,
+a[href="/characters/DumbGirlBots/jessalyn-and-darcy-witches-of-the-woods-50673e74cf09"] .ant-btn .anticon {
+  stroke: #c187ff !important;
+  fill: #c187ff !important;
+}
