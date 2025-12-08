@@ -267,6 +267,219 @@ box-shadow: 0 0 12px var(--glow-white) !important;
 }
 
 /* ============================================
+   PORTIA CARD OVERRIDE – FOREST GREEN
+   ============================================ */
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] .ant-card {
+  border-color: #4B5A47 !important;
+  box-shadow: 0 0 15px rgba(75, 90, 71, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(75, 90, 71, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] .ant-tag {
+  border-color: #4B5A47 !important;
+  color: #4B5A47 !important;
+}
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] .ant-tag:hover {
+  border-color: #647560 !important;
+  box-shadow: 0 0 15px rgba(75, 90, 71, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] a,
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] .quote-color {
+  color: #4B5A47 !important;
+}
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] svg,
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] .anticon {
+  stroke: #4B5A47 !important;
+  fill: #4B5A47 !important;
+}
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] .fake-ribbon {
+  background: rgba(75, 90, 71, 0.2) !important;
+  border: 2px solid #4B5A47 !important;
+  color: #4B5A47 !important;
+}
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] .ant-btn {
+  border-color: #4B5A47 !important;
+  color: #4B5A47 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(75, 90, 71, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] .ant-btn:hover {
+  background-color: #4B5A47 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 25px rgba(75, 90, 71, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] .ant-dropdown-trigger svg {
+  fill: #4B5A47 !important;
+  stroke: #4B5A47 !important;
+}
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] .ant-btn[style*="color: gray"] {
+  color: #4B5A47 !important;
+}
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #4B5A47;
+}
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #647560;
+}
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #4B5A47 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #647560 !important;
+  box-shadow: 0 0 25px rgba(75, 90, 71, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #4B5A47 !important;
+}
+
+/* ============================================
+   JACQUELINE CARD OVERRIDE – PALE GREY
+   ============================================ */
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] .ant-card {
+  border-color: #D9D9D9 !important;
+  box-shadow: 0 0 15px rgba(217, 217, 217, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(217, 217, 217, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] .ant-tag {
+  border-color: #D9D9D9 !important;
+  color: #D9D9D9 !important;
+}
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] .ant-tag:hover {
+  border-color: #FFFFFF !important;
+  box-shadow: 0 0 15px rgba(217, 217, 217, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] a,
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] .quote-color {
+  color: #D9D9D9 !important;
+}
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] svg,
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] .anticon {
+  stroke: #D9D9D9 !important;
+  fill: #D9D9D9 !important;
+}
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] .fake-ribbon {
+  background: rgba(217, 217, 217, 0.15) !important;
+  border: 2px solid #D9D9D9 !important;
+  color: #D9D9D9 !important;
+}
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] .ant-btn {
+  border-color: #D9D9D9 !important;
+  color: #D9D9D9 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(217, 217, 217, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] .ant-btn:hover {
+  background-color: #D9D9D9 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 25px rgba(217, 217, 217, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] .ant-dropdown-trigger svg {
+  fill: #D9D9D9 !important;
+  stroke: #D9D9D9 !important;
+}
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] .ant-btn[style*="color: gray"] {
+  color: #D9D9D9 !important;
+}
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #D9D9D9;
+}
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #FFFFFF;
+}
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #D9D9D9 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #FFFFFF !important;
+  box-shadow: 0 0 25px rgba(217, 217, 217, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/jacqueline-the-fading-necromancer-74288a4de3b9"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #D9D9D9 !important;
+}
+
+/* ============================================
+   BENSON FAMILY CARD OVERRIDE – BLUE VARIANT
+   ============================================ */
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] .ant-card {
+  border-color: #7EB4E6 !important;
+  box-shadow: 0 0 15px rgba(126, 180, 230, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] .ant-card:hover {
+  box-shadow: 0 0 28px rgba(126, 180, 230, 0.55) !important;
+}
+
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] .ant-tag {
+  border-color: #5A90C9 !important;
+  color: #5A90C9 !important;
+}
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] .ant-tag:hover {
+  border-color: #7EB4E6 !important;
+  box-shadow: 0 0 15px rgba(126, 180, 230, 0.5) !important;
+}
+
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] a,
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] .quote-color {
+  color: #7EB4E6 !important;
+}
+
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] svg,
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] .anticon {
+  stroke: #7EB4E6 !important;
+  fill: #7EB4E6 !important;
+}
+
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] .fake-ribbon {
+  background: rgba(184, 218, 247, 0.25) !important;
+  border: 2px solid #7EB4E6 !important;
+  color: #7EB4E6 !important;
+}
+
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] .ant-btn {
+  border-color: #5A90C9 !important;
+  color: #5A90C9 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 10px rgba(90, 144, 201, 0.35) !important;
+}
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] .ant-btn:hover {
+  background-color: #7EB4E6 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 28px rgba(126, 180, 230, 0.55) !important;
+}
+
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] .ant-dropdown-trigger svg {
+  fill: #7EB4E6 !important;
+  stroke: #7EB4E6 !important;
+}
+
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] .ant-btn[style*="color: gray"] {
+  color: #7EB4E6 !important;
+}
+
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #7EB4E6;
+}
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #5A90C9;
+}
+
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #B8DAF7 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #7EB4E6 !important;
+  box-shadow: 0 0 30px rgba(126, 180, 230, 0.55) !important;
+}
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/the-exiled-ladies-of-house-benson-adb0c65ff834"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #7EB4E6 !important;
+}
+
+/* ============================================
    CHRISTINA CARD OVERRIDE – GLOW BLUE
    ============================================ */
 a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-card {
@@ -333,6 +546,8 @@ a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"]:
 a[href="/characters/DumbGirlBots/christianne-the-pawned-daughter-f2bf08042970"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
   border-top-color: #B6CEF4 !important;
 }
+
+
 
 /* ============================================
    ROSABELLE CARD OVERRIDE – DARK BLUE
