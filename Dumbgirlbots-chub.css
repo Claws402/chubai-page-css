@@ -267,6 +267,210 @@ box-shadow: 0 0 12px var(--glow-white) !important;
 }
 
 /* ============================================
+   CADENCE CARD OVERRIDE – PURPLE & ROSE GOLD
+   ============================================ */
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .ant-card {
+  border-color: #6A2C91 !important;
+  box-shadow: 0 0 15px rgba(106, 44, 145, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(106, 44, 145, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .ant-tag {
+  border-color: #6A2C91 !important;
+  color: #E6B7A7 !important;
+}
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .ant-tag:hover {
+  border-color: #8741B8 !important;
+  box-shadow: 0 0 15px rgba(106,44,145,0.5) !important;
+}
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] a,
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .quote-color {
+  color: #E6B7A7 !important;
+}
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] svg,
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .anticon {
+  stroke: #E6B7A7 !important;
+  fill: #E6B7A7 !important;
+}
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .fake-ribbon {
+  background: rgba(106, 44, 145, 0.2) !important;
+  border: 2px solid #6A2C91 !important;
+  color: #E6B7A7 !important;
+}
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .ant-btn {
+  border-color: #6A2C91 !important;
+  color: #E6B7A7 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(106, 44, 145, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .ant-btn:hover {
+  background-color: #6A2C91 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 25px rgba(106, 44, 145, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .ant-dropdown-trigger svg {
+  fill: #E6B7A7 !important;
+  stroke: #E6B7A7 !important;
+}
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .ant-btn[style*="color: gray"] {
+  color: #E6B7A7 !important;
+}
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #6A2C91;
+}
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #8741B8;
+}
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #6A2C91 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #8741B8 !important;
+  box-shadow: 0 0 25px rgba(106, 44, 145, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #6A2C91 !important;
+}
+
+/* ============================================
+   ARDEN CARD OVERRIDE – FIRE RED & ORANGE
+   ============================================ */
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] .ant-card {
+  border-color: #B22222 !important;
+  box-shadow: 0 0 15px rgba(178, 34, 34, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(178, 34, 34, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] .ant-tag {
+  border-color: #B22222 !important;
+  color: #FF8C42 !important;
+}
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] .ant-tag:hover {
+  border-color: #CC3A3A !important;
+  box-shadow: 0 0 15px rgba(178,34,34,0.5) !important;
+}
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] a,
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] .quote-color {
+  color: #FF8C42 !important;
+}
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] svg,
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] .anticon {
+  stroke: #FF8C42 !important;
+  fill: #FF8C42 !important;
+}
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] .fake-ribbon {
+  background: rgba(178, 34, 34, 0.2) !important;
+  border: 2px solid #B22222 !important;
+  color: #FF8C42 !important;
+}
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] .ant-btn {
+  border-color: #B22222 !important;
+  color: #FF8C42 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(178, 34, 34, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] .ant-btn:hover {
+  background-color: #B22222 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 25px rgba(178, 34, 34, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] .ant-dropdown-trigger svg {
+  fill: #FF8C42 !important;
+  stroke: #FF8C42 !important;
+}
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] .ant-btn[style*="color: gray"] {
+  color: #FF8C42 !important;
+}
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #B22222;
+}
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #CC3A3A;
+}
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #B22222 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #CC3A3A !important;
+  box-shadow: 0 0 25px rgba(178, 34, 34, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/arden-the-elven-slave-6ba7dde97058"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #B22222 !important;
+}
+
+/* ============================================
+   BRIELLE CARD OVERRIDE – BABY BLUE & ICY BLUE
+   ============================================ */
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] .ant-card {
+  border-color: #8EC8F5 !important;
+  box-shadow: 0 0 15px rgba(142, 200, 245, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(142, 200, 245, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] .ant-tag {
+  border-color: #8EC8F5 !important;
+  color: #BEE8FF !important;
+}
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] .ant-tag:hover {
+  border-color: #A2D5FA !important;
+  box-shadow: 0 0 15px rgba(142,200,245,0.5) !important;
+}
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] a,
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] .quote-color {
+  color: #BEE8FF !important;
+}
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] svg,
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] .anticon {
+  stroke: #BEE8FF !important;
+  fill: #BEE8FF !important;
+}
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] .fake-ribbon {
+  background: rgba(142, 200, 245, 0.2) !important;
+  border: 2px solid #8EC8F5 !important;
+  color: #BEE8FF !important;
+}
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] .ant-btn {
+  border-color: #8EC8F5 !important;
+  color: #BEE8FF !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(142, 200, 245, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] .ant-btn:hover {
+  background-color: #8EC8F5 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 25px rgba(142, 200, 245, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] .ant-dropdown-trigger svg {
+  fill: #BEE8FF !important;
+  stroke: #BEE8FF !important;
+}
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] .ant-btn[style*="color: gray"] {
+  color: #BEE8FF !important;
+}
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #8EC8F5;
+}
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #A2D5FA;
+}
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #8EC8F5 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #A2D5FA !important;
+  box-shadow: 0 0 25px rgba(142, 200, 245, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/brielle-the-hushed-chill-d3d8da965c52"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #8EC8F5 !important;
+}
+
+/* ============================================
    PORTIA CARD OVERRIDE – FOREST GREEN
    ============================================ */
 a[href="/characters/DumbGirlBots/portia-the-blind-elf-05647c11969e"] .ant-card {
