@@ -267,6 +267,414 @@ box-shadow: 0 0 12px var(--glow-white) !important;
 }
 
 /* ============================================
+   DEMON QUEST OVERRIDE – HELLISH RED
+   ============================================ */
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] .ant-card {
+  border-color: #8B0000 !important;
+  box-shadow: 0 0 15px rgba(139, 0, 0, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(139, 0, 0, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] .ant-tag {
+  border-color: #8B0000 !important;
+  color: #FFB3B3 !important;
+}
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] .ant-tag:hover {
+  border-color: #B22222 !important;
+  box-shadow: 0 0 15px rgba(139,0,0,0.5) !important;
+}
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] a,
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] .quote-color {
+  color: #FFB3B3 !important;
+}
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] svg,
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] .anticon {
+  stroke: #FFB3B3 !important;
+  fill: #FFB3B3 !important;
+}
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] .fake-ribbon {
+  background: rgba(139, 0, 0, 0.2) !important;
+  border: 2px solid #8B0000 !important;
+  color: #FFB3B3 !important;
+}
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] .ant-btn {
+  border-color: #8B0000 !important;
+  color: #FFB3B3 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(139, 0, 0, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] .ant-btn:hover {
+  background-color: #8B0000 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 25px rgba(139, 0, 0, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] .ant-dropdown-trigger svg {
+  fill: #FFB3B3 !important;
+  stroke: #FFB3B3 !important;
+}
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] .ant-btn[style*="color: gray"] {
+  color: #FFB3B3 !important;
+}
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #8B0000;
+}
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #B22222;
+}
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #8B0000 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #B22222 !important;
+  box-shadow: 0 0 25px rgba(139, 0, 0, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #8B0000 !important;
+}
+
+/* ============================================
+   RENEE OVERRIDE – SKY BLUE & VIVID BLUE
+   ============================================ */
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] .ant-card {
+  border-color: #007BFF !important;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(0, 123, 255, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] .ant-tag {
+  border-color: #007BFF !important;
+  color: #87CEEB !important;
+}
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] .ant-tag:hover {
+  border-color: #3399FF !important;
+  box-shadow: 0 0 15px rgba(0,123,255,0.5) !important;
+}
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] a,
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] .quote-color {
+  color: #87CEEB !important;
+}
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] svg,
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] .anticon {
+  stroke: #87CEEB !important;
+  fill: #87CEEB !important;
+}
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] .fake-ribbon {
+  background: rgba(0, 123, 255, 0.2) !important;
+  border: 2px solid #007BFF !important;
+  color: #87CEEB !important;
+}
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] .ant-btn {
+  border-color: #007BFF !important;
+  color: #87CEEB !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] .ant-btn:hover {
+  background-color: #007BFF !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 25px rgba(0, 123, 255, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] .ant-dropdown-trigger svg {
+  fill: #87CEEB !important;
+  stroke: #87CEEB !important;
+}
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] .ant-btn[style*="color: gray"] {
+  color: #87CEEB !important;
+}
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #007BFF;
+}
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #3399FF;
+}
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #007BFF !important;
+  color: #0A0A0F !important;
+  border: 2px solid #3399FF !important;
+  box-shadow: 0 0 25px rgba(0, 123, 255, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/renee-the-chaotic-tide-a1d0267de052"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #007BFF !important;
+}
+
+/* ============================================
+   BELIA OVERRIDE – VIOLET & PURPLE
+   ============================================ */
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] .ant-card {
+  border-color: #6A2C91 !important;
+  box-shadow: 0 0 15px rgba(106, 44, 145, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(106, 44, 145, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] .ant-tag {
+  border-color: #6A2C91 !important;
+  color: #D6B3FF !important;
+}
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] .ant-tag:hover {
+  border-color: #8741B8 !important;
+  box-shadow: 0 0 15px rgba(106,44,145,0.5) !important;
+}
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] a,
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] .quote-color {
+  color: #D6B3FF !important;
+}
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] svg,
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] .anticon {
+  stroke: #D6B3FF !important;
+  fill: #D6B3FF !important;
+}
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] .fake-ribbon {
+  background: rgba(106, 44, 145, 0.2) !important;
+  border: 2px solid #6A2C91 !important;
+  color: #D6B3FF !important;
+}
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] .ant-btn {
+  border-color: #6A2C91 !important;
+  color: #D6B3FF !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(106, 44, 145, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] .ant-btn:hover {
+  background-color: #6A2C91 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 25px rgba(106, 44, 145, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] .ant-dropdown-trigger svg {
+  fill: #D6B3FF !important;
+  stroke: #D6B3FF !important;
+}
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] .ant-btn[style*="color: gray"] {
+  color: #D6B3FF !important;
+}
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #6A2C91;
+}
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #8741B8;
+}
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #6A2C91 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #8741B8 !important;
+  box-shadow: 0 0 25px rgba(106, 44, 145, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/belia-the-goth-mommy-demon-0114183cc505"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #6A2C91 !important;
+}
+
+/* ============================================
+   HILDE OVERRIDE – BUBBLEGUM PINK
+   ============================================ */
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] .ant-card {
+  border-color: #FF69B4 !important;
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(255, 105, 180, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] .ant-tag {
+  border-color: #FF69B4 !important;
+  color: #FFC0CB !important;
+}
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] .ant-tag:hover {
+  border-color: #FF85C1 !important;
+  box-shadow: 0 0 15px rgba(255,105,180,0.5) !important;
+}
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] a,
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] .quote-color {
+  color: #FFC0CB !important;
+}
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] svg,
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] .anticon {
+  stroke: #FFC0CB !important;
+  fill: #FFC0CB !important;
+}
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] .fake-ribbon {
+  background: rgba(255, 105, 180, 0.2) !important;
+  border: 2px solid #FF69B4 !important;
+  color: #FFC0CB !important;
+}
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] .ant-btn {
+  border-color: #FF69B4 !important;
+  color: #FFC0CB !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(255, 105, 180, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] .ant-btn:hover {
+  background-color: #FF69B4 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 25px rgba(255, 105, 180, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] .ant-dropdown-trigger svg {
+  fill: #FFC0CB !important;
+  stroke: #FFC0CB !important;
+}
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] .ant-btn[style*="color: gray"] {
+  color: #FFC0CB !important;
+}
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #FF69B4;
+}
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #FF85C1;
+}
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #FF69B4 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #FF85C1 !important;
+  box-shadow: 0 0 25px rgba(255, 105, 180, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/hilde-the-demon-of-tantrums-e4222566063c"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #FF69B4 !important;
+}
+
+/* ============================================
+   NYTASHA OVERRIDE – ICE BLUE
+   ============================================ */
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] .ant-card {
+  border-color: #87CEFA !important;
+  box-shadow: 0 0 15px rgba(135, 206, 250, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(135, 206, 250, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] .ant-tag {
+  border-color: #87CEFA !important;
+  color: #E0FFFF !important;
+}
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] .ant-tag:hover {
+  border-color: #00BFFF !important;
+  box-shadow: 0 0 15px rgba(135,206,250,0.5) !important;
+}
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] a,
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] .quote-color {
+  color: #E0FFFF !important;
+}
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] svg,
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] .anticon {
+  stroke: #E0FFFF !important;
+  fill: #E0FFFF !important;
+}
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] .fake-ribbon {
+  background: rgba(135, 206, 250, 0.2) !important;
+  border: 2px solid #87CEFA !important;
+  color: #E0FFFF !important;
+}
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] .ant-btn {
+  border-color: #87CEFA !important;
+  color: #E0FFFF !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(135, 206, 250, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] .ant-btn:hover {
+  background-color: #87CEFA !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 25px rgba(135, 206, 250, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] .ant-dropdown-trigger svg {
+  fill: #E0FFFF !important;
+  stroke: #E0FFFF !important;
+}
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] .ant-btn[style*="color: gray"] {
+  color: #E0FFFF !important;
+}
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #87CEFA;
+}
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #00BFFF;
+}
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #87CEFA !important;
+  color: #0A0A0F !important;
+  border: 2px solid #00BFFF !important;
+  box-shadow: 0 0 25px rgba(135, 206, 250, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #87CEFA !important;
+}
+
+/* ============================================
+   ELF AUCTION OVERRIDE – BLUE/GREEN/PURPLE/PINK/RED
+   ============================================ */
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-card {
+  border-color: #6A2C91 !important;
+  box-shadow: 0 0 15px rgba(106, 44, 145, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(106, 44, 145, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-tag {
+  border-color: #6A2C91 !important;
+  color: #00FF7F !important;
+}
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-tag:hover {
+  border-color: #FF1493 !important;
+  box-shadow: 0 0 15px rgba(106,44,145,0.5) !important;
+}
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] a,
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .quote-color {
+  color: #00FF7F !important;
+}
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] svg,
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .anticon {
+  stroke: #00FF7F !important;
+  fill: #00FF7F !important;
+}
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .fake-ribbon {
+  background: rgba(106, 44, 145, 0.2) !important;
+  border: 2px solid #6A2C91 !important;
+  color: #00FF7F !important;
+}
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-btn {
+  border-color: #6A2C91 !important;
+  color: #00FF7F !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(106, 44, 145, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-btn:hover {
+  background-color: #6A2C91 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 25px rgba(106, 44, 145, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-dropdown-trigger svg {
+  fill: #00FF7F !important;
+  stroke: #00FF7F !important;
+}
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-btn[style*="color: gray"] {
+  color: #00FF7F !important;
+}
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #6A2C91;
+}
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #FF1493;
+}
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #6A2C91 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #FF1493 !important;
+  box-shadow: 0 0 25px rgba(106, 44, 145, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #6A2C91 !important;
+}
+
+/* ============================================
    CADENCE CARD OVERRIDE – PURPLE & ROSE GOLD
    ============================================ */
 a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .ant-card {
