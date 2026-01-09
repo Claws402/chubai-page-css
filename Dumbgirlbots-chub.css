@@ -571,55 +571,6 @@ a[href="/characters/DumbGirlBots/nytasha-savior-with-a-secret-86760a8577c9"] .an
 }
 
 /* ============================================
-   ELF AUCTION CARD OVERRIDE – PRISMATIC
-   ============================================ */
-a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-card {
-  border-color: #9A6BFF !important;
-  box-shadow: 0 0 20px rgba(255, 105, 180, 0.35) !important;
-}
-a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-card:hover {
-  box-shadow: 0 0 35px rgba(0, 255, 200, 0.6) !important;
-}
-a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-tag {
-  border-color: #FF5FA2 !important;
-  color: #E6F7FF !important;
-}
-a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-tag:hover {
-  border-color: #7FD8FF !important;
-  box-shadow: 0 0 20px rgba(154,107,255,0.6) !important;
-}
-a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] a,
-a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .quote-color {
-  color: #E6F7FF !important;
-}
-a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] svg,
-a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .anticon {
-  stroke: #E6F7FF !important;
-  fill: #E6F7FF !important;
-}
-a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .fake-ribbon {
-  background: linear-gradient(135deg,#7FD8FF,#9A6BFF,#FF5FA2,#FF6B6B) !important;
-  border: 2px solid #9A6BFF !important;
-  color: #0A0A0F !important;
-}
-a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-btn {
-  border-color: #9A6BFF !important;
-  color: #E6F7FF !important;
-  background-color: transparent !important;
-  box-shadow: 0 0 10px rgba(154, 107, 255, 0.35) !important;
-}
-a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-btn:hover {
-  background-color: #9A6BFF !important;
-  color: #0A0A0F !important;
-  box-shadow: 0 0 35px rgba(255, 105, 180, 0.6) !important;
-}
-a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant-dropdown-trigger svg {
-  fill: #E6F7FF !important;
-  stroke: #E6F7FF !important;
-}
-a[href="/characters/DumbGirlBots/elf-auction-rare-delicacies-d8d1c17d5326"] .ant
-
-/* ============================================
    CADENCE CARD OVERRIDE – PURPLE & ROSE GOLD
    ============================================ */
 a[href="/characters/DumbGirlBots/cadence-the-gentle-lie-bf45a26fb7d3"] .ant-card {
