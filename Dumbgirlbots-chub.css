@@ -267,6 +267,168 @@ box-shadow: 0 0 12px var(--glow-white) !important;
 }
 
 /* ============================================
+   DUSTIE OVERRIDE – FOREST GREEN
+   ============================================ */
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] .ant-card {
+  border-color:#2F6B3F!important;
+  box-shadow:0 0 15px rgba(47,107,63,.25)!important;
+}
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] .ant-card:hover {
+  box-shadow:0 0 25px rgba(47,107,63,.5)!important;
+}
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] .ant-tag {
+  border-color:#2F6B3F!important;
+  color:#A8E6C1!important;
+}
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] .ant-tag:hover {
+  border-color:#3F8A55!important;
+  box-shadow:0 0 15px rgba(47,107,63,.5)!important;
+}
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] a,
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] .quote-color {
+  color:#A8E6C1!important;
+}
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] svg,
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] .anticon {
+  stroke:#A8E6C1!important;
+  fill:#A8E6C1!important;
+}
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] .fake-ribbon {
+  background:rgba(47,107,63,.2)!important;
+  border:2px solid #2F6B3F!important;
+  color:#A8E6C1!important;
+}
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] .ant-btn {
+  border-color:#2F6B3F!important;
+  color:#A8E6C1!important;
+  background-color:transparent!important;
+  box-shadow:0 0 8px rgba(47,107,63,.25)!important;
+}
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] .ant-btn:hover {
+  background-color:#2F6B3F!important;
+  color:#0A0A0F!important;
+  box-shadow:0 0 25px rgba(47,107,63,.5)!important;
+}
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] .ant-dropdown-trigger svg {
+  fill:#A8E6C1!important;
+  stroke:#A8E6C1!important;
+}
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] .ant-btn[style*="color: gray"] {
+  color:#A8E6C1!important;
+}
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] .custom-scroll::-webkit-scrollbar-thumb {
+  background:#2F6B3F;
+}
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background:#3F8A55;
+}
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color:#2F6B3F!important;
+  color:#0A0A0F!important;
+  border:2px solid #3F8A55!important;
+  box-shadow:0 0 25px rgba(47,107,63,.5)!important;
+}
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color:#2F6B3F!important;
+}
+
+/* ============================================
+   STORMIE OVERRIDE – OCEAN BLUE
+   ============================================ */
+a[href="/characters/DumbGirlBots/stormie-the-gullible-newcomer-2f2e5e436c4e"] .ant-card {
+  border-color:#1F5FA8!important;
+  box-shadow:0 0 15px rgba(31,95,168,.25)!important;
+}
+a[href="/characters/DumbGirlBots/stormie-the-gullible-newcomer-2f2e5e436c4e"] .ant-card:hover {
+  box-shadow:0 0 25px rgba(31,95,168,.5)!important;
+}
+a[href="/characters/DumbGirlBots/stormie-the-gullible-newcomer-2f2e5e436c4e"] .ant-tag {
+  border-color:#1F5FA8!important;
+  color:#B3D9FF!important;
+}
+a[href="/characters/DumbGirlBots/stormie-the-gullible-newcomer-2f2e5e436c4e"] .ant-tag:hover {
+  border-color:#347FD1!important;
+  box-shadow:0 0 15px rgba(31,95,168,.5)!important;
+}
+a[href="/characters/DumbGirlBots/stormie-the-gullible-newcomer-2f2e5e436c4e"] a,
+a[href="/characters/DumbGirlBots/stormie-the-gullible-newcomer-2f2e5e436c4e"] .quote-color {
+  color:#B3D9FF!important;
+}
+a[href="/characters/DumbGirlBots/stormie-the-gullible-newcomer-2f2e5e436c4e"] svg,
+a[href="/characters/DumbGirlBots/stormie-the-gullible-newcomer-2f2e5e436c4e"] .anticon {
+  stroke:#B3D9FF!important;
+  fill:#B3D9FF!important;
+}
+a[href="/characters/DumbGirlBots/stormie-the-gullible-newcomer-2f2e5e436c4e"] .fake-ribbon {
+  background:rgba(31,95,168,.2)!important;
+  border:2px solid #1F5FA8!important;
+  color:#B3D9FF!important;
+}
+a[href="/characters/DumbGirlBots/stormie-the-gullible-newcomer-2f2e5e436c4e"] .ant-btn {
+  border-color:#1F5FA8!important;
+  color:#B3D9FF!important;
+  background-color:transparent!important;
+  box-shadow:0 0 8px rgba(31,95,168,.25)!important;
+}
+a[href="/characters/DumbGirlBots/stormie-the-gullible-newcomer-2f2e5e436c4e"] .ant-btn:hover {
+  background-color:#1F5FA8!important;
+  color:#0A0A0F!important;
+  box-shadow:0 0 25px rgba(31,95,168,.5)!important;
+}
+a[href="/characters/DumbGirlBots/stormie-the-gullible-newcomer-2f2e5e436c4e"] .custom-scroll::-webkit-scrollbar-thumb {
+  background:#1F5FA8;
+}
+a[href="/characters/DumbGirlBots/stormie-the-gullible-newcomer-2f2e5e436c4e"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background:#347FD1;
+}
+
+/* ============================================
+   DRYAD TWINS OVERRIDE – FOREST + OCEAN (TEAL)
+   ============================================ */
+a[href="/characters/DumbGirlBots/dryad-twins-sister-and-femboy-brother-498f68f930f9"] .ant-card {
+  border-color:#2F7F6F!important;
+  box-shadow:0 0 15px rgba(47,127,111,.25)!important;
+}
+a[href="/characters/DumbGirlBots/dryad-twins-sister-and-femboy-brother-498f68f930f9"] .ant-card:hover {
+  box-shadow:0 0 25px rgba(47,127,111,.5)!important;
+}
+a[href="/characters/DumbGirlBots/dryad-twins-sister-and-femboy-brother-498f68f930f9"] .ant-tag {
+  border-color:#2F7F6F!important;
+  color:#C2FFF0!important;
+}
+a[href="/characters/DumbGirlBots/dryad-twins-sister-and-femboy-brother-498f68f930f9"] .ant-tag:hover {
+  border-color:#3FA89A!important;
+  box-shadow:0 0 15px rgba(47,127,111,.5)!important;
+}
+a[href="/characters/DumbGirlBots/dryad-twins-sister-and-femboy-brother-498f68f930f9"] a,
+a[href="/characters/DumbGirlBots/dryad-twins-sister-and-femboy-brother-498f68f930f9"] .quote-color {
+  color:#C2FFF0!important;
+}
+a[href="/characters/DumbGirlBots/dryad-twins-sister-and-femboy-brother-498f68f930f9"] svg,
+a[href="/characters/DumbGirlBots/dryad-twins-sister-and-femboy-brother-498f68f930f9"] .anticon {
+  stroke:#C2FFF0!important;
+  fill:#C2FFF0!important;
+}
+a[href="/characters/DumbGirlBots/dryad-twins-sister-and-femboy-brother-498f68f930f9"] .fake-ribbon {
+  background:rgba(47,127,111,.2)!important;
+  border:2px solid #2F7F6F!important;
+  color:#C2FFF0!important;
+}
+a[href="/characters/DumbGirlBots/dryad-twins-sister-and-femboy-brother-498f68f930f9"] .ant-btn {
+  border-color:#2F7F6F!important;
+  color:#C2FFF0!important;
+  background-color:transparent!important;
+  box-shadow:0 0 8px rgba(47,127,111,.25)!important;
+}
+a[href="/characters/DumbGirlBots/dryad-twins-sister-and-femboy-brother-498f68f930f9"] .ant-btn:hover {
+  background-color:#2F7F6F!important;
+  color:#0A0A0F!important;
+  box-shadow:0 0 25px rgba(47,127,111,.5)!important;
+}
+
+/* ============================================
    DEMON QUEST OVERRIDE – HELLISH RED
    ============================================ */
 a[href="/characters/DumbGirlBots/demon-breeding-quest-76c8a9c13935"] .ant-card {
