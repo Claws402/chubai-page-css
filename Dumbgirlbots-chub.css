@@ -267,6 +267,66 @@ box-shadow: 0 0 12px var(--glow-white) !important;
 }
 
 /* ============================================
+   KAEDE OVERRIDE – BUBBLEGUM
+   ============================================ */
+a[href="/characters/DumbGirlBots/kaede-pulled-through-time-7417d3e69822"] .ant-card{border-color:#FF6FB3!important;box-shadow:0 0 15px rgba(255,111,179,.35)!important}
+a[href="/characters/DumbGirlBots/kaede-pulled-through-time-7417d3e69822"] .ant-card:hover{box-shadow:0 0 25px rgba(255,111,179,.6)!important}
+a[href="/characters/DumbGirlBots/kaede-pulled-through-time-7417d3e69822"] .ant-tag{border-color:#FF6FB3!important;color:#8FD3FF!important}
+a[href="/characters/DumbGirlBots/kaede-pulled-through-time-7417d3e69822"] .ant-tag:hover{border-color:#FF9FCC!important;box-shadow:0 0 15px rgba(255,111,179,.6)!important}
+a[href="/characters/DumbGirlBots/kaede-pulled-through-time-7417d3e69822"] a,
+a[href="/characters/DumbGirlBots/kaede-pulled-through-time-7417d3e69822"] .quote-color{color:#8FD3FF!important}
+a[href="/characters/DumbGirlBots/kaede-pulled-through-time-7417d3e69822"] svg,
+a[href="/characters/DumbGirlBots/kaede-pulled-through-time-7417d3e69822"] .anticon{stroke:#8FD3FF!important;fill:#8FD3FF!important}
+a[href="/characters/DumbGirlBots/kaede-pulled-through-time-7417d3e69822"] .fake-ribbon{background:rgba(255,111,179,.2)!important;border:2px solid #FF6FB3!important;color:#8FD3FF!important}
+a[href="/characters/DumbGirlBots/kaede-pulled-through-time-7417d3e69822"] .ant-btn{border-color:#FF6FB3!important;color:#8FD3FF!important;background-color:transparent!important;box-shadow:0 0 8px rgba(255,111,179,.3)!important}
+a[href="/characters/DumbGirlBots/kaede-pulled-through-time-7417d3e69822"] .ant-btn:hover{background-color:#FF6FB3!important;color:#0A0A0F!important;box-shadow:0 0 25px rgba(255,111,179,.6)!important}
+
+/* ============================================
+   KEZIA OVERRIDE – GILDED
+   ============================================ */
+a[href="/characters/DumbGirlBots/kezia-mage-in-disguise-0d2cbd53b487"] .ant-card{border-color:#D4AF37!important;box-shadow:0 0 15px rgba(212,175,55,.35)!important}
+a[href="/characters/DumbGirlBots/kezia-mage-in-disguise-0d2cbd53b487"] .ant-card:hover{box-shadow:0 0 25px rgba(212,175,55,.6)!important}
+a[href="/characters/DumbGirlBots/kezia-mage-in-disguise-0d2cbd53b487"] .ant-tag{border-color:#D4AF37!important;color:#A9D8FF!important}
+a[href="/characters/DumbGirlBots/kezia-mage-in-disguise-0d2cbd53b487"] .ant-tag:hover{border-color:#E8C86A!important;box-shadow:0 0 15px rgba(212,175,55,.6)!important}
+a[href="/characters/DumbGirlBots/kezia-mage-in-disguise-0d2cbd53b487"] a,
+a[href="/characters/DumbGirlBots/kezia-mage-in-disguise-0d2cbd53b487"] .quote-color{color:#A9D8FF!important}
+a[href="/characters/DumbGirlBots/kezia-mage-in-disguise-0d2cbd53b487"] svg,
+a[href="/characters/DumbGirlBots/kezia-mage-in-disguise-0d2cbd53b487"] .anticon{stroke:#A9D8FF!important;fill:#A9D8FF!important}
+a[href="/characters/DumbGirlBots/kezia-mage-in-disguise-0d2cbd53b487"] .fake-ribbon{background:rgba(212,175,55,.2)!important;border:2px solid #D4AF37!important;color:#A9D8FF!important}
+a[href="/characters/DumbGirlBots/kezia-mage-in-disguise-0d2cbd53b487"] .ant-btn{border-color:#D4AF37!important;color:#A9D8FF!important;background-color:transparent!important;box-shadow:0 0 8px rgba(212,175,55,.3)!important}
+a[href="/characters/DumbGirlBots/kezia-mage-in-disguise-0d2cbd53b487"] .ant-btn:hover{background-color:#D4AF37!important;color:#0A0A0F!important;box-shadow:0 0 25px rgba(212,175,55,.6)!important}
+
+/* ============================================
+   ALIMI OVERRIDE – CRIMSON VAMPIRE
+   ============================================ */
+a[href="/characters/DumbGirlBots/princess-alimi-the-vampire-brat-f2fd201acbb8"] .ant-card{border-color:#8B1E1E!important;box-shadow:0 0 18px rgba(139,30,30,.45)!important}
+a[href="/characters/DumbGirlBots/princess-alimi-the-vampire-brat-f2fd201acbb8"] .ant-card:hover{box-shadow:0 0 30px rgba(139,30,30,.7)!important}
+a[href="/characters/DumbGirlBots/princess-alimi-the-vampire-brat-f2fd201acbb8"] .ant-tag{border-color:#8B1E1E!important;color:#E06A6A!important}
+a[href="/characters/DumbGirlBots/princess-alimi-the-vampire-brat-f2fd201acbb8"] .ant-tag:hover{border-color:#B73232!important;box-shadow:0 0 18px rgba(139,30,30,.6)!important}
+a[href="/characters/DumbGirlBots/princess-alimi-the-vampire-brat-f2fd201acbb8"] a,
+a[href="/characters/DumbGirlBots/princess-alimi-the-vampire-brat-f2fd201acbb8"] .quote-color{color:#E06A6A!important}
+a[href="/characters/DumbGirlBots/princess-alimi-the-vampire-brat-f2fd201acbb8"] svg,
+a[href="/characters/DumbGirlBots/princess-alimi-the-vampire-brat-f2fd201acbb8"] .anticon{stroke:#E06A6A!important;fill:#E06A6A!important}
+a[href="/characters/DumbGirlBots/princess-alimi-the-vampire-brat-f2fd201acbb8"] .fake-ribbon{background:rgba(139,30,30,.25)!important;border:2px solid #8B1E1E!important;color:#E06A6A!important}
+a[href="/characters/DumbGirlBots/princess-alimi-the-vampire-brat-f2fd201acbb8"] .ant-btn{border-color:#8B1E1E!important;color:#E06A6A!important;background-color:transparent!important;box-shadow:0 0 10px rgba(139,30,30,.35)!important}
+a[href="/characters/DumbGirlBots/princess-alimi-the-vampire-brat-f2fd201acbb8"] .ant-btn:hover{background-color:#8B1E1E!important;color:#0A0A0F!important;box-shadow:0 0 30px rgba(139,30,30,.7)!important}
+
+/* ============================================
+   ANISSA OVERRIDE – SOFT HEALER GREEN
+   ============================================ */
+a[href="/characters/DumbGirlBots/anissa-the-bullied-healer-slime-67622d880aad"] .ant-card{border-color:#66A683!important;box-shadow:0 0 15px rgba(102,166,131,.3)!important}
+a[href="/characters/DumbGirlBots/anissa-the-bullied-healer-slime-67622d880aad"] .ant-card:hover{box-shadow:0 0 25px rgba(102,166,131,.55)!important}
+a[href="/characters/DumbGirlBots/anissa-the-bullied-healer-slime-67622d880aad"] .ant-tag{border-color:#66A683!important;color:#66A683!important}
+a[href="/characters/DumbGirlBots/anissa-the-bullied-healer-slime-67622d880aad"] .ant-tag:hover{border-color:#7DBE9A!important;box-shadow:0 0 15px rgba(102,166,131,.5)!important}
+a[href="/characters/DumbGirlBots/anissa-the-bullied-healer-slime-67622d880aad"] a,
+a[href="/characters/DumbGirlBots/anissa-the-bullied-healer-slime-67622d880aad"] .quote-color{color:#66A683!important}
+a[href="/characters/DumbGirlBots/anissa-the-bullied-healer-slime-67622d880aad"] svg,
+a[href="/characters/DumbGirlBots/anissa-the-bullied-healer-slime-67622d880aad"] .anticon{stroke:#66A683!important;fill:#66A683!important}
+a[href="/characters/DumbGirlBots/anissa-the-bullied-healer-slime-67622d880aad"] .fake-ribbon{background:rgba(102,166,131,.2)!important;border:2px solid #66A683!important;color:#66A683!important}
+a[href="/characters/DumbGirlBots/anissa-the-bullied-healer-slime-67622d880aad"] .ant-btn{border-color:#66A683!important;color:#66A683!important;background-color:transparent!important;box-shadow:0 0 8px rgba(102,166,131,.25)!important}
+a[href="/characters/DumbGirlBots/anissa-the-bullied-healer-slime-67622d880aad"] .ant-btn:hover{background-color:#66A683!important;color:#0A0A0F!important;box-shadow:0 0 25px rgba(102,166,131,.55)!important}
+
+/* ============================================
    DUSTIE OVERRIDE – FOREST GREEN
    ============================================ */
 a[href="/characters/DumbGirlBots/dustie-novice-femboy-adventurer-dc7c162154a9"] .ant-card {
