@@ -267,6 +267,65 @@ box-shadow: 0 0 12px var(--glow-white) !important;
 }
 
 /* ============================================
+   YUKA+KAEDE COMBO BOT – HYBRID ACCENT
+   ============================================ */
+a[href="/characters/DumbGirlBots/yuka-kaede-mother-daughter-isekai-d-7215278a5e30"] .ant-card{
+  border-color:#FF80C0!important;
+  box-shadow:0 0 15px rgba(255,128,192,.35)!important;
+}
+a[href="/characters/DumbGirlBots/yuka-kaede-mother-daughter-isekai-d-7215278a5e30"] .ant-card:hover{
+  box-shadow:0 0 25px rgba(127,204,255,.6)!important;
+}
+a[href="/characters/DumbGirlBots/yuka-kaede-mother-daughter-isekai-d-7215278a5e30"] .ant-tag{
+  border-color:#FF80C0!important;
+  color:#7FCCFF!important;
+}
+a[href="/characters/DumbGirlBots/yuka-kaede-mother-daughter-isekai-d-7215278a5e30"] .ant-tag:hover{
+  border-color:#FFA0D0!important;
+  box-shadow:0 0 15px rgba(255,128,192,.6)!important;
+}
+a[href="/characters/DumbGirlBots/yuka-kaede-mother-daughter-isekai-d-7215278a5e30"] a,
+a[href="/characters/DumbGirlBots/yuka-kaede-mother-daughter-isekai-d-7215278a5e30"] .quote-color{
+  color:#7FCCFF!important;
+}
+a[href="/characters/DumbGirlBots/yuka-kaede-mother-daughter-isekai-d-7215278a5e30"] svg,
+a[href="/characters/DumbGirlBots/yuka-kaede-mother-daughter-isekai-d-7215278a5e30"] .anticon{
+  stroke:#7FCCFF!important;
+  fill:#7FCCFF!important;
+}
+a[href="/characters/DumbGirlBots/yuka-kaede-mother-daughter-isekai-d-7215278a5e30"] .fake-ribbon{
+  background:rgba(255,128,192,.2)!important;
+  border:2px solid #FF80C0!important;
+  color:#7FCCFF!important;
+}
+a[href="/characters/DumbGirlBots/yuka-kaede-mother-daughter-isekai-d-7215278a5e30"] .ant-btn{
+  border-color:#FF80C0!important;
+  color:#7FCCFF!important;
+  background-color:transparent!important;
+  box-shadow:0 0 8px rgba(255,128,192,.3)!important;
+}
+a[href="/characters/DumbGirlBots/yuka-kaede-mother-daughter-isekai-d-7215278a5e30"] .ant-btn:hover{
+  background-color:#FF80C0!important;
+  color:#0A0A0F!important;
+  box-shadow:0 0 25px rgba(127,204,255,.6)!important;
+}
+
+/* ============================================
+   YUKA OVERRIDE – INVERTED COLORS
+   ============================================ */
+a[href="/characters/DumbGirlBots/yuka-milf-adventurer-from-the-future-905da78a96b2"] .ant-card{border-color:#8FD3FF!important;box-shadow:0 0 15px rgba(143,211,255,.35)!important}
+a[href="/characters/DumbGirlBots/yuka-milf-adventurer-from-the-future-905da78a96b2"] .ant-card:hover{box-shadow:0 0 25px rgba(143,211,255,.6)!important}
+a[href="/characters/DumbGirlBots/yuka-milf-adventurer-from-the-future-905da78a96b2"] .ant-tag{border-color:#8FD3FF!important;color:#FF6FB3!important}
+a[href="/characters/DumbGirlBots/yuka-milf-adventurer-from-the-future-905da78a96b2"] .ant-tag:hover{border-color:#9FCCFF!important;box-shadow:0 0 15px rgba(143,211,255,.6)!important}
+a[href="/characters/DumbGirlBots/yuka-milf-adventurer-from-the-future-905da78a96b2"] a,
+a[href="/characters/DumbGirlBots/yuka-milf-adventurer-from-the-future-905da78a96b2"] .quote-color{color:#FF6FB3!important}
+a[href="/characters/DumbGirlBots/yuka-milf-adventurer-from-the-future-905da78a96b2"] svg,
+a[href="/characters/DumbGirlBots/yuka-milf-adventurer-from-the-future-905da78a96b2"] .anticon{stroke:#FF6FB3!important;fill:#FF6FB3!important}
+a[href="/characters/DumbGirlBots/yuka-milf-adventurer-from-the-future-905da78a96b2"] .fake-ribbon{background:rgba(143,211,255,.2)!important;border:2px solid #8FD3FF!important;color:#FF6FB3!important}
+a[href="/characters/DumbGirlBots/yuka-milf-adventurer-from-the-future-905da78a96b2"] .ant-btn{border-color:#8FD3FF!important;color:#FF6FB3!important;background-color:transparent!important;box-shadow:0 0 8px rgba(143,211,255,.3)!important}
+a[href="/characters/DumbGirlBots/yuka-milf-adventurer-from-the-future-905da78a96b2"] .ant-btn:hover{background-color:#8FD3FF!important;color:#0A0A0F!important;box-shadow:0 0 25px rgba(143,211,255,.6)!important}
+
+/* ============================================
    KAEDE OVERRIDE – BUBBLEGUM
    ============================================ */
 a[href="/characters/DumbGirlBots/kaede-pulled-through-time-7417d3e69822"] .ant-card{border-color:#FF6FB3!important;box-shadow:0 0 15px rgba(255,111,179,.35)!important}
