@@ -2945,3 +2945,874 @@ a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"]:hover
 a[href="/characters/DumbGirlBots/sai-the-everlasting-dragon-69e3492153fa"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
   border-top-color: #ff6600 !important;
 }
+
+/* ============================================
+   MAIN MENU – FROSTED GLASS + CRISP WHITE SEARCH
+   ============================================ */
+
+/* Header: translucent frosted glass */
+.ant-layout-header {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+  backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
+  -webkit-backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
+  z-index: 999 !important;
+  max-height: 64px !important;
+  overflow: hidden !important;
+  width: 100vw !important;
+  position: fixed !important;
+  top: 0 !important;
+  padding: 0 !important;
+}
+
+/* Menu: white text and subtle glow */
+.ant-menu-root,
+.ant-menu-root .ant-menu-item,
+.ant-menu-root .ant-menu-submenu-title {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  text-shadow: 0 0 2px #ffffff !important;
+  font-weight: 500 !important;
+}
+
+/* Menu hover/active glow */
+.ant-menu-root .ant-menu-item:hover,
+.ant-menu-root .ant-menu-item-active,
+.ant-menu-root .ant-menu-submenu-title:hover {
+  color: #00ffff !important;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff !important;
+}
+
+/* Search box inside header: translucent + crisp white text */
+.ant-select-selector {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+  backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
+  -webkit-backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
+  color: #ffffff !important;
+  text-shadow: 0 0 2px #ffffff !important;
+}
+
+/* Icons inside menu: bright white/glow */
+.ant-menu-root svg,
+.ant-menu-root .ant-avatar img {
+  filter: drop-shadow(0 0 6px #00ffff) !important;
+}
+
+/* ============================================
+   SIDEBAR – FROSTED GLASS + VERTICAL MENU
+   ============================================ */
+
+.avatar-box {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  backdrop-filter: blur(8px) saturate(180%);
+  -webkit-backdrop-filter: blur(8px) saturate(180%);
+  border: 1px solid rgba(255,255,255,0.3);
+  display: block;
+  margin: 0 auto;
+}
+
+.ant-layout-sider {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
+  -webkit-backdrop-filter: blur(14px) saturate(180%) brightness(95%) !important;
+  width: 80px !important;
+  position: fixed !important;
+  top: 64px !important;
+  bottom: 0 !important;
+  overflow-y: auto !important;
+  z-index: 1 !important;
+}
+
+/* Sidebar menu: vertical, white text, subtle glow */
+.ant-menu-vertical,
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-vertical .ant-menu-submenu-title {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  text-shadow: 0 0 2px #ffffff !important;
+  font-weight: 500 !important;
+  text-align: center !important;
+}
+
+/* Sidebar menu hover/active */
+.ant-menu-vertical .ant-menu-item:hover,
+.ant-menu-vertical .ant-menu-item-active,
+.ant-menu-vertical .ant-menu-submenu-title:hover {
+  color: #00ffff !important;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff !important;
+}
+
+/* Sidebar icons: glow effect */
+.ant-menu-vertical svg,
+.ant-menu-vertical .ant-avatar img {
+  filter: drop-shadow(0 0 6px #00ffff) !important;
+}
+
+.ant-card-head {
+  background: rgba(255,255,255,0.15) !important;
+  backdrop-filter: blur(8px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(8px) saturate(180%) !important;
+  border: 1px solid rgba(255,255,255,0.3) !important;
+  border-radius: 10px 10px 0 0 !important; /* top-left & top-right rounded, bottom-left & bottom-right square */
+  padding: 0.2rem 0.6rem !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15) !important;
+  transition: all 0.3s ease !important;
+  font-family: 'Playfair Display', serif !important;
+  font-weight: bold !important;
+}
+
+.ant-card-head-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1 1 auto !important; /* takes remaining space */
+  margin-right: 0.5rem !important; /* small gap before count */
+  color: #fff !important;
+  text-shadow: 0 0 4px rgba(0,0,0,0.7), 0 0 8px rgba(255,255,255,0.3) !important;
+  font-size: 0.95rem !important;
+}
+
+.ant-card-extra {
+  color: #fff !important;
+  text-shadow: 0 0 4px rgba(0,0,0,0.7), 0 0 6px rgba(255,255,255,0.3) !important;
+  font-weight: bold !important;
+  flex: 0 0 auto !important; /* sticks to right edge */
+  white-space: nowrap !important; /* prevents wrapping */
+}
+
+/* ====================================================
+   JESSIKA CARD OVERRIDE – GREY
+   ==================================================== */
+
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-card {
+  border-color: #7a7a7a !important;
+  box-shadow: none !important;
+  border-radius: 8px !important;
+}
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-card:hover {
+  box-shadow: none !important;
+}
+
+/* Tags */
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-tag {
+  border-color: #7a7a7a !important;
+  color: #7a7a7a !important;
+  border-radius: 8px !important;
+}
+
+/* Quote & link text */
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] a,
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .quote-color {
+  color: #7a7a7a !important;
+}
+
+/* Icons */
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] svg,
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .anticon {
+  stroke: #7a7a7a !important;
+  fill: #7a7a7a !important;
+}
+
+/* Buttons */
+a[href="/characters/DumbGirlBots/jessika-kylies-friend-e83ee513b473"] .ant-btn {
+  border-color: #7a7a7a !important;
+  color: #7a7a7a !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* ====================================================
+   ARTEMIS CARD OVERRIDE – RED & VIBRANT GOLD
+   ==================================================== */
+
+a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant-card {
+  border-color: #ffcc00 !important; /* more vibrant gold */
+  box-shadow: 0 0 15px rgba(255, 204, 0, 0.25) !important;
+  border-radius: 8px !important;
+}
+a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(255, 204, 0, 0.55) !important;
+}
+
+/* Tags */
+a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant-tag {
+  border-color: #ffcc00 !important;
+  color: #ffcc00 !important;
+  border-radius: 8px !important;
+}
+a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant-tag:hover {
+  box-shadow: 0 0 15px rgba(255, 204, 0, 0.55) !important;
+}
+
+/* Quote & link text */
+a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] a,
+a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .quote-color {
+  color: #ff0000 !important;
+}
+
+/* Icons */
+a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] svg,
+a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .anticon {
+  stroke: #ffcc00 !important;
+  fill: #ffcc00 !important;
+}
+
+/* Ribbon */
+a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .fake-ribbon {
+  background: rgba(255,204,0,0.18) !important;
+  border: 2px solid #ffcc00 !important;
+  color: #ffcc00 !important;
+}
+
+/* Buttons */
+a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant-btn {
+  border-color: #ffcc00 !important;
+  color: #ffcc00 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(255,204,0,0.25) !important;
+}
+a[href="/characters/DumbGirlBots/artemis-the-oblivious-aegis-3f834f1fdc70"] .ant-btn:hover {
+  background-color: #ff0000 !important;
+  color: #ffcc00 !important;
+  box-shadow: 0 0 15px rgba(255,204,0,0.55) !important;
+}
+
+/* ============================================
+   ELLIE CARD OVERRIDE – FADED ROSE
+   ============================================ */
+
+/* Card border & shadow */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-card {
+  border-color: #c08081 !important;
+  box-shadow: 0 0 15px rgba(192, 128, 129, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(192, 128, 129, 0.5) !important;
+}
+
+/* Tags */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-tag {
+  border-color: #c08081 !important;
+  color: #c08081 !important;
+}
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-tag:hover {
+  border-color: #d4a0a1 !important;
+  box-shadow: 0 0 15px rgba(192, 128, 129, 0.5) !important;
+}
+
+/* Quote & link text */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] a,
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .quote-color {
+  color: #c08081 !important;
+}
+
+/* SVG icons anywhere in card */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] svg,
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .anticon {
+  stroke: #c08081 !important;
+  fill: #c08081 !important;
+}
+
+/* Ribbon stats at bottom */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .fake-ribbon {
+  background: rgba(192, 128, 129, 0.2) !important;
+  border: 2px solid #c08081 !important;
+  color: #c08081 !important;
+}
+
+/* Buttons inside card */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-btn {
+  border-color: #c08081 !important;
+  color: #c08081 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(192, 128, 129, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-btn:hover {
+  background-color: #c08081 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(192, 128, 129, 0.5) !important;
+}
+
+/* “More” dropdown button icon */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-dropdown-trigger svg {
+  fill: #c08081 !important;
+  stroke: #c08081 !important;
+}
+
+/* Force inline gray text to rose */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-btn[style*="color: gray"] {
+  color: #c08081 !important;
+}
+
+/* Horizontal scrollbar for tags */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .custom-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .custom-scroll::-webkit-scrollbar-track {
+  background: #111122;
+  border-radius: 4px;
+}
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #c08081;
+  border-radius: 4px;
+}
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #d4a0a1;
+}
+
+/* ALL dropdown menus (portal-based & hover-triggered) */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-dropdown-menu,
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-dropdown-menu-item,
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-dropdown-menu-item .ant-btn {
+  background: rgba(192, 128, 129, 0.95) !important;
+  border: 2px solid #c08081 !important;
+  color: #ffe6e6 !important;
+}
+
+/* Dropdown menu item hover */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-dropdown-menu-item:hover {
+  background: rgba(212, 160, 161, 0.8) !important;
+  color: #0A0A0F !important;
+}
+
+/* Dropdown buttons inside menu hover */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-dropdown-menu-item .ant-btn:hover {
+  color: #d4a0a1 !important;
+}
+
+/* Dropdown portal handling (covers hover-only and dynamically injected) */
+body > .ant-dropdown {
+  background: rgba(192, 128, 129, 0.95) !important;
+  border: 2px solid #c08081 !important;
+  color: #ffe6e6 !important;
+}
+body > .ant-dropdown .ant-dropdown-menu {
+  background: rgba(192, 128, 129, 0.95) !important;
+  border: 2px solid #c08081 !important;
+  color: #ffe6e6 !important;
+}
+body > .ant-dropdown .ant-dropdown-menu-item {
+  color: #ffe6e6 !important;
+}
+body > .ant-dropdown .ant-dropdown-menu-item:hover {
+  background: rgba(212, 160, 161, 0.8) !important;
+}
+body > .ant-dropdown .ant-dropdown-menu-item .ant-btn {
+  color: #ffe6e6 !important;
+}
+body > .ant-dropdown .ant-dropdown-menu-item .ant-btn:hover {
+  color: #d4a0a1 !important;
+}
+
+/* ============================================
+   ELLIE TOOLTIP OVERRIDE – FADED ROSE
+   ============================================ */
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #c08081 !important;
+  color: #0A0A0F !important;
+  border: 2px solid #d4a0a1 !important;
+  box-shadow: 0 0 10px rgba(192, 128, 129, 0.5) !important;
+  font-size: 0.85rem !important;
+  border-radius: 4px !important;
+}
+
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/ellie-the-exasperated-secretary-68a24f4da0e6"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #c08081 !important; /* arrow matches tooltip background */
+}
+
+/* ============================================
+   DEMI-HUMAN MILITARY CARD OVERRIDE – ARMY GREEN
+   ============================================ */
+
+/* Card border & shadow */
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .ant-card,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .ant-card {
+  border-color: #556B2F !important;
+  box-shadow: 0 0 15px rgba(85, 107, 47, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .ant-card:hover,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(85, 107, 47, 0.5) !important;
+}
+
+/* Tags */
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .ant-tag,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .ant-tag {
+  border-color: #556B2F !important;
+  color: #556B2F !important;
+}
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .ant-tag:hover,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .ant-tag:hover {
+  border-color: #6B8E23 !important;
+  box-shadow: 0 0 15px rgba(85, 107, 47, 0.5) !important;
+}
+
+/* Quote & link text */
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] a,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] a,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .quote-color,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .quote-color {
+  color: #556B2F !important;
+}
+
+/* SVG icons anywhere in card */
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] svg,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] svg,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .anticon,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .anticon {
+  stroke: #556B2F !important;
+  fill: #556B2F !important;
+}
+
+/* Ribbon stats at bottom */
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .fake-ribbon,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .fake-ribbon {
+  background: rgba(85, 107, 47, 0.2) !important;
+  border: 2px solid #556B2F !important;
+  color: #556B2F !important;
+}
+
+/* Buttons inside card */
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .ant-btn,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .ant-btn {
+  border-color: #556B2F !important;
+  color: #556B2F !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(85, 107, 47, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .ant-btn:hover,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .ant-btn:hover {
+  background-color: #556B2F !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(85, 107, 47, 0.5) !important;
+}
+
+/* “More” dropdown button icon */
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .ant-dropdown-trigger svg,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .ant-dropdown-trigger svg {
+  fill: #556B2F !important;
+  stroke: #556B2F !important;
+}
+
+/* Force inline gray text to army green */
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .ant-btn[style*="color: gray"],
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .ant-btn[style*="color: gray"] {
+  color: #556B2F !important;
+}
+
+/* Horizontal scrollbar for tags */
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .custom-scroll::-webkit-scrollbar,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .custom-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .custom-scroll::-webkit-scrollbar-track,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .custom-scroll::-webkit-scrollbar-track {
+  background: #111122;
+  border-radius: 4px;
+}
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .custom-scroll::-webkit-scrollbar-thumb,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #556B2F;
+  border-radius: 4px;
+}
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .custom-scroll::-webkit-scrollbar-thumb:hover,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #6B8E23;
+}
+
+/* ALL dropdown menus (portal-based & hover-triggered) */
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .ant-dropdown-menu,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .ant-dropdown-menu,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .ant-dropdown-menu-item,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .ant-dropdown-menu-item,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .ant-dropdown-menu-item .ant-btn,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .ant-dropdown-menu-item .ant-btn {
+  background: rgba(85, 107, 47, 0.95) !important;
+  border: 2px solid #556B2F !important;
+  color: #eef4e6 !important;
+}
+
+/* Dropdown menu item hover */
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .ant-dropdown-menu-item:hover,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .ant-dropdown-menu-item:hover {
+  background: rgba(107, 142, 35, 0.8) !important;
+  color: #0A0A0F !important;
+}
+
+/* Dropdown buttons inside menu hover */
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .ant-dropdown-menu-item .ant-btn:hover,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .ant-dropdown-menu-item .ant-btn:hover {
+  color: #6B8E23 !important;
+}
+
+/* Dropdown portal handling (covers hover-only and dynamically injected) */
+body > .ant-dropdown {
+  background: rgba(85, 107, 47, 0.95) !important;
+  border: 2px solid #556B2F !important;
+  color: #eef4e6 !important;
+}
+body > .ant-dropdown .ant-dropdown-menu {
+  background: rgba(85, 107, 47, 0.95) !important;
+  border: 2px solid #556B2F !important;
+  color: #eef4e6 !important;
+}
+body > .ant-dropdown .ant-dropdown-menu-item {
+  color: #eef4e6 !important;
+}
+body > .ant-dropdown .ant-dropdown-menu-item:hover {
+  background: rgba(107, 142, 35, 0.8) !important;
+}
+body > .ant-dropdown .ant-dropdown-menu-item .ant-btn {
+  color: #eef4e6 !important;
+}
+body > .ant-dropdown .ant-dropdown-menu-item .ant-btn:hover {
+  color: #6B8E23 !important;
+}
+
+/* ============================================
+   DEMI-HUMAN MILITARY TOOLTIP OVERRIDE – ARMY GREEN
+   ============================================ */
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"]:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-inner {
+  background-color: #556B2F !important;
+  color: #0A0A0F !important;
+  border: 2px solid #6B8E23 !important;
+  box-shadow: 0 0 10px rgba(85, 107, 47, 0.5) !important;
+  font-size: 0.85rem !important;
+  border-radius: 4px !important;
+}
+
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"]:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-fempov-b0d410261b65"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow,
+a[href="/characters/DumbGirlBots/demi-human-military-dumbasses-84d7af40130c"] .ant-btn:hover ~ .ant-tooltip .ant-tooltip-arrow {
+  border-top-color: #556B2F !important; /* arrow matches tooltip background */
+}
+
+/* ============================================
+   KINGDOM OF DUMBRIA CARD OVERRIDE – TERRACOTTA RED
+   ============================================ */
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .ant-card {
+  border-color: #E2725B !important;
+  box-shadow: 0 0 15px rgba(226, 114, 91, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(226, 114, 91, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .ant-tag {
+  border-color: #E2725B !important;
+  color: #E2725B !important;
+}
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .ant-tag:hover {
+  border-color: #F1948A !important;
+  box-shadow: 0 0 15px rgba(226, 114, 91, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] a,
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .quote-color {
+  color: #E2725B !important;
+}
+
+/* SVG icons */
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] svg,
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .anticon {
+  stroke: #E2725B !important;
+  fill: #E2725B !important;
+}
+
+/* Ribbon */
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .fake-ribbon {
+  background: rgba(226, 114, 91, 0.2) !important;
+  border: 2px solid #E2725B !important;
+  color: #E2725B !important;
+}
+
+/* Buttons */
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .ant-btn {
+  border-color: #E2725B !important;
+  color: #E2725B !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(226, 114, 91, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .ant-btn:hover {
+  background-color: #E2725B !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(226, 114, 91, 0.5) !important;
+}
+
+/* “More” dropdown icon */
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .ant-dropdown-trigger svg {
+  fill: #E2725B !important;
+  stroke: #E2725B !important;
+}
+
+/* Force inline gray text to terracotta */
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .ant-btn[style*="color: gray"] {
+  color: #E2725B !important;
+}
+
+/* Scrollbar */
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #E2725B;
+}
+a[href="/characters/DumbGirlBots/kingdom-of-dumbria-world-narrator-2ecef7507c27"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #F1948A;
+}
+
+/* ============================================
+   DITZY ADVENTURER CARD OVERRIDE – SILVER & GUNMETAL
+   ============================================ */
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .ant-card {
+  border-color: #C0C0C0 !important;
+  box-shadow: 0 0 15px rgba(192, 192, 192, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(192, 192, 192, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .ant-tag {
+  border-color: #C0C0C0 !important;
+  color: #C0C0C0 !important;
+}
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .ant-tag:hover {
+  border-color: #A9A9A9 !important;
+  box-shadow: 0 0 15px rgba(192, 192, 192, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] a,
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .quote-color {
+  color: #C0C0C0 !important;
+}
+
+/* SVG icons */
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] svg,
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .anticon {
+  stroke: #C0C0C0 !important;
+  fill: #C0C0C0 !important;
+}
+
+/* Ribbon */
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .fake-ribbon {
+  background: rgba(192, 192, 192, 0.2) !important;
+  border: 2px solid #C0C0C0 !important;
+  color: #C0C0C0 !important;
+}
+
+/* Buttons */
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .ant-btn {
+  border-color: #C0C0C0 !important;
+  color: #C0C0C0 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(192, 192, 192, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .ant-btn:hover {
+  background-color: #C0C0C0 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(192, 192, 192, 0.5) !important;
+}
+
+/* “More” dropdown icon */
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .ant-dropdown-trigger svg {
+  fill: #C0C0C0 !important;
+  stroke: #C0C0C0 !important;
+}
+
+/* Force inline gray text to silver */
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .ant-btn[style*="color: gray"] {
+  color: #C0C0C0 !important;
+}
+
+/* Scrollbar */
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #C0C0C0;
+}
+a[href="/characters/DumbGirlBots/ditzy-adventurer-s-guild-9acf55f7ca9e"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #A9A9A9;
+}
+
+/* ============================================
+   YOUR VICTIM'S FAMILY CARD OVERRIDE – SANDY BROWN & OCEAN BLUE
+   ============================================ */
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .ant-card {
+  border-color: #F4A460 !important;
+  box-shadow: 0 0 15px rgba(244, 164, 96, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(244, 164, 96, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .ant-tag {
+  border-color: #F4A460 !important;
+  color: #F4A460 !important;
+}
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .ant-tag:hover {
+  border-color: #87CEFA !important;
+  box-shadow: 0 0 15px rgba(244, 164, 96, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] a,
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .quote-color {
+  color: #F4A460 !important;
+}
+
+/* SVG icons */
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] svg,
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .anticon {
+  stroke: #F4A460 !important;
+  fill: #F4A460 !important;
+}
+
+/* Ribbon */
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .fake-ribbon {
+  background: rgba(244, 164, 96, 0.2) !important;
+  border: 2px solid #F4A460 !important;
+  color: #F4A460 !important;
+}
+
+/* Buttons */
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .ant-btn {
+  border-color: #F4A460 !important;
+  color: #F4A460 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(244, 164, 96, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .ant-btn:hover {
+  background-color: #F4A460 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(244, 164, 96, 0.5) !important;
+}
+
+/* “More” dropdown icon */
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .ant-dropdown-trigger svg {
+  fill: #F4A460 !important;
+  stroke: #F4A460 !important;
+}
+
+/* Force inline gray text to sandy brown */
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .ant-btn[style*="color: gray"] {
+  color: #F4A460 !important;
+}
+
+/* Scrollbar */
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #F4A460;
+}
+a[href="/characters/DumbGirlBots/your-victim-s-family-adultpov-version-7d6d0cbd4def"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #87CEFA;
+}
+
+/* ============================================
+   VIVIE CARD OVERRIDE – STRAW BLONDE
+   ============================================ */
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-card {
+  border-color: #F5DEB3 !important; /* straw blonde */
+  box-shadow: 0 0 15px rgba(245, 222, 179, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(245, 222, 179, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-tag {
+  border-color: #F5DEB3 !important;
+  color: #F5DEB3 !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-tag:hover {
+  border-color: #FFE4B5 !important;
+  box-shadow: 0 0 15px rgba(245, 222, 179, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] a,
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .quote-color {
+  color: #F5DEB3 !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] svg,
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .anticon {
+  stroke: #F5DEB3 !important;
+  fill: #F5DEB3 !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .fake-ribbon {
+  background: rgba(245, 222, 179, 0.2) !important;
+  border: 2px solid #F5DEB3 !important;
+  color: #F5DEB3 !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-btn {
+  border-color: #F5DEB3 !important;
+  color: #F5DEB3 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(245, 222, 179, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-btn:hover {
+  background-color: #F5DEB3 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(245, 222, 179, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-dropdown-trigger svg {
+  fill: #F5DEB3 !important;
+  stroke: #F5DEB3 !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .ant-btn[style*="color: gray"] {
+  color: #F5DEB3 !important;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #F5DEB3;
+}
+a[href="/characters/DumbGirlBots/vivie-the-not-so-bright-blade-a30bd6b250c0"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #FFE4B5;
+}
+
+/* ============================================
+   THE FRONTROOMS CARD OVERRIDE – VIBRANT HALLOWEEN ORANGE
+   ============================================ */
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .ant-card {
+  border-color: #FF7518 !important; /* halloween orange */
+  box-shadow: 0 0 15px rgba(255, 117, 24, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .ant-card:hover {
+  box-shadow: 0 0 25px rgba(255, 117, 24, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .ant-tag {
+  border-color: #FF7518 !important;
+  color: #FF7518 !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .ant-tag:hover {
+  border-color: #FFA54F !important;
+  box-shadow: 0 0 15px rgba(255, 117, 24, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] a,
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .quote-color {
+  color: #FF7518 !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] svg,
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .anticon {
+  stroke: #FF7518 !important;
+  fill: #FF7518 !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .fake-ribbon {
+  background: rgba(255, 117, 24, 0.2) !important;
+  border: 2px solid #FF7518 !important;
+  color: #FF7518 !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .ant-btn {
+  border-color: #FF7518 !important;
+  color: #FF7518 !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 8px rgba(255, 117, 24, 0.25) !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .ant-btn:hover {
+  background-color: #FF7518 !important;
+  color: #0A0A0F !important;
+  box-shadow: 0 0 15px rgba(255, 117, 24, 0.5) !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .ant-dropdown-trigger svg {
+  fill: #FF7518 !important;
+  stroke: #FF7518 !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .ant-btn[style*="color: gray"] {
+  color: #FF7518 !important;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .custom-scroll::-webkit-scrollbar-thumb {
+  background: #FF7518;
+}
+a[href="/characters/DumbGirlBots/the-frontrooms-b101cdc4ce2d"] .custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #FFA54F;
+}
